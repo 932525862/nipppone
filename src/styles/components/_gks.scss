@@ -1,0 +1,243 @@
+.gks{
+    padding: 75px 0 50px;
+    .gks-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        width: 100%;
+        .title{
+            max-width: 730px;
+        }
+        .gks-menu{
+            margin-bottom: px;
+            width: 100%;
+            .menu-left{
+                width: 483px;
+                height: 374px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .menu-right{
+                max-width: 598px;
+                .menu-right-top{
+                    margin-bottom: 44px;
+                    h5{
+                        font-family: "Gilroy", sans-serif;;
+                        font-weight: 400;
+                        font-size: 24px;
+                        color: #333;
+                        margin-bottom: 15px;
+                        span{
+                            color: #abddb1;
+                        }
+                    }
+                    p{
+                        font-family: "Gilroy", sans-serif;;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 150%;
+                        color: #333;
+                        span{
+                            color: #73c0bd;
+                        }
+                    }
+                }
+                .menu-right-bottom{
+                    h5{
+                        font-family: "Gilroy-medium", sans-serif;;
+                        font-weight: 400;
+                        font-size: 24px;
+                        color: #333;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-family: "Gilroy", sans-serif;;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 150%;
+                        color: #333;
+                        display: flex;
+                        gap: 10px;
+                        span{
+                            width: 5px;
+                            height: 5px;
+                            background: #000;
+                            border-radius: 50%;
+                            transform: translateY(10px);
+                        }
+                    }
+                }
+            }
+        }
+        .video{
+            width: 100%;
+            .video-iframe{
+                border-radius: 15px 15px 0 0;
+                height: 511px;
+                overflow: hidden;
+                width: 100%;
+                iframe{
+                    border-radius: inherit;
+                    height: inherit !important;
+                    width: inherit;
+                }
+            }
+            .video-sub{
+                border-radius: 0 0 15px 15px;
+                width: 100%;
+                height: 76px;
+                background: #333;
+                font-weight: 400;
+                font-size: 28px;
+                color: #fff;
+                font-family: "Gilroy", sans-serif;
+                padding-left: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1119px) {
+    .gks{
+        .gks-content{
+            .gks-menu{
+                .gks-menu-right{
+                    .menu-right-top{
+                        h5{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .menu-right-bottom{
+                        h5{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .video{
+                .video-sub{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .gks{
+        .gks-content{
+            gap: 50px;
+            .title{
+                font-size: 28px;
+            }
+            .gks-menu{
+                flex-direction: column;
+                gap: 30px;
+                .gks-menu-right{
+                    .menu-right-top{
+                        h5{
+                            font-size: 18px;
+                        }
+                    }
+                    .menu-right-bottom{
+                        h5{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            .video{
+                .video-iframe{
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .gks{
+        .gks-content{
+            gap: 30px;
+            .title{
+                font-size: 18px;
+            }
+            .gks-menu{
+                .menu-left{
+                    width: 383px;
+                    height: 274px;
+                }
+                .gks-menu-right{
+                    .menu-right-top{
+                        h5{
+                            font-size: 16px;
+                        }
+                        p{
+                            font-size: 10px;
+                        }
+                    }
+                    .menu-right-bottom{
+                        h5{
+                            font-size: 12px;
+                        }
+                        p{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .video{
+                .video-iframe{
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .gks{
+        .gks-content{
+            .gks-menu{
+                .menu-left{
+                    width: 283px;
+                    height: 174px;
+                    margin-bottom: 30px;
+                }
+                .gks-menu-right{
+                    .menu-right-top{
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                    .menu-right-bottom{
+                        h5{
+                            font-size: 14px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .video{
+                .video-iframe{
+                    height: 170px;
+                }
+                .video-sub{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

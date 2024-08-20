@@ -1,0 +1,96 @@
+.support{
+    padding: 50px 0;
+    .support-content{
+        box-shadow: 0 0 46px 5px rgba(171, 221, 177, 0.15);
+        background: linear-gradient(90deg, rgba(125, 202, 199, 0.65) 0%, rgba(197, 242, 203, 0.65) 100%);
+        border-radius: 10px;
+        width: 100%;
+        padding: 50px 150px;
+        flex-wrap: wrap;
+        .support-text{
+            max-width: 250px;
+            .question{
+                font-weight: 400;
+                font-size: 40px;
+                color: #333;
+                font-family: "Gilroy", sans-serif;
+                margin-bottom: 20px;
+            }
+            .support-description{
+                font-weight: 400;
+                font-family: "Gilroy", sans-serif;
+                font-size: 16px;
+                line-height: 141%;
+                color: #333;
+            }
+        }
+        form{
+            max-width: 360px;
+            div{
+                margin-bottom: 20px;
+                position: relative;
+                input{
+                    border: 1px solid transparent;
+                    border-radius: 55px;
+                    width: 350px;
+                    height: 55px;
+                    box-shadow: 0 4px 13px -6px rgba(0, 0, 0, 0.07), inset 0 0 102px 1px rgba(171, 221, 177, 0.8);
+                    background: #bff1c5;
+                    border: 0;
+                    outline: 0;
+                    padding: 18px 30px;
+                    font-family: "Montserrat", sans-serif;
+                    &::placeholder{
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: #fff;
+                    }
+                }
+                .error{
+                    border: 1px solid red;
+                }
+                span{
+                    position: absolute;
+                    font-family: "Montserrat", sans-serif;
+                    color: red;
+                    font-size: 10px;
+                    font-weight: 500;
+                    bottom: -15px;
+                    left: 20px;
+                }
+            }
+            button{
+                height: 60px;
+                width: 350px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .support{
+        .support-content{
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .support{
+        .support-content{
+            padding: 30px 20px;
+            form{
+                div{
+                    input{
+                        width: 280px;
+                    }
+                }
+                button{
+                    width: 280px;
+                }
+            }
+        }
+    }
+}

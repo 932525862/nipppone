@@ -1,0 +1,99 @@
+.academy{
+    padding: 50px 0;
+    .academy-content{
+        .title{
+            margin-bottom: 112px;
+        }
+        .academy-cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 85px;
+            column-gap: 15px;
+            .academy-card{
+                position: relative;
+                border-radius: 10px;
+                width: 370px;
+                height: 258px;
+                box-shadow: 0 8px 24px 0 #e9f5ff;
+                background: #fff;
+                padding: 48px 25px 0;
+                .count{
+                    width: 83px;
+                    height: 83px;
+                    font-weight: 800;
+                    font-size: 50px;
+                    color: #fff;
+                    border-radius: 10px;
+                    font-family: "Gilroy", sans-serif;
+                    background: #61ABA7;
+                    position: absolute;
+                    left: 26px;
+                    top: -55px;
+                }
+                .card-title{
+                    font-family: "Gilroy", sans-serif;
+                    font-weight: 400;
+                    font-size: 25px;
+                    color: #000;
+                    margin-bottom: 35px;
+                }
+                .card-description{
+                    font-family: "Gilroy", sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .academy{
+        .academy-content{
+            .title{
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .academy{
+        .academy-content{
+            .title{
+                font-size: 28px;
+            }
+            .academy-cards{
+                .academy-card{
+                    width: 250px;
+                    .card-title{
+                        font-size: 20px;
+                    }
+                    .card-description{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 479px) {
+    .academy{
+        .academy-content{
+            .academy-cards{
+                .academy-card{
+                    width: 320px;
+                    .card-title{
+                        font-size: 20px;
+                    }
+                    .card-description{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

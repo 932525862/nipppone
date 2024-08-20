@@ -1,0 +1,209 @@
+.hero{
+    padding-top: 73px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    .hero-content{
+        z-index: 9999;
+        .korea-lng{
+            gap: 15px;
+            margin-bottom: 23px;
+            .line{
+                background: #a7dfb1;
+                border-radius: 3px;
+                width: 28px;
+                height: 1px;
+            }
+            p{
+                font-family: "Montserrat", sans-serif;
+                max-width: 356px;
+                font-size: 18px;
+                color: #333;
+            }
+        }
+        h1{
+            font-family: "Gilroy", sans-serif;
+            font-weight: 300;
+            font-size: 54px;
+            color: #000;
+            max-width: 807px;
+            line-height: 49px;
+        }
+        .topic-abouts{
+            gap: 50px;
+            .about{
+                gap: 15px;
+                p{
+                    max-width: 283px;
+                    font-size: 18px;
+                    color: #333;
+                    font-family: "Montserrat", sans-serif;
+                }
+                &:first-child{
+                    p{
+                        max-width: 240px;
+                    }
+                }
+            }
+        }
+        .hero-bottom{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 335px;
+            gap: 18px;
+            p{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                color: #000;
+            }
+        }
+    }
+    .hero-bg{
+        position: absolute;
+        right: -140px;
+        bottom: -10px;
+        width: 982px;
+        height: 626px;
+        z-index: -1;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero{
+        height: 800px;
+        .hero-bg{
+            bottom: 0;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1110px) {
+    .hero{
+        padding-top: 10px;
+        .hero-content{
+            h1{
+                font-size: 36;
+            }
+            .topic-abouts{
+                .about{
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .hero-bottom{
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 987px) {
+    .hero{
+        height: 600px;
+        .hero-content{
+            .korea-lng{
+                p{
+                    font-size: 16px;
+                }
+            }
+            h1{
+                font-size: 36px;
+                max-width: 485px;
+                margin-bottom: 20px;
+            }
+            .topic-abouts{
+                flex-direction: column-reverse;
+                gap: 10px;
+                align-items: flex-start;
+                margin-bottom: 30px;
+                .about{
+                    padding: 0;
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .hero-bg{
+            bottom: 100px;
+            right: -220px;
+            width: 700px;
+            height: 500px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .hero{
+        height: 650px;
+        .hero-content{
+            h1{
+                font-size: 24px;
+                line-height: 30px;
+            }
+            .topic-abouts{
+                .about{
+                    p{
+                        font-size: 12px;
+                        max-width: 207px;
+                    }
+                }
+            }
+            .hero-bottom{
+                margin: 250px auto;
+            }
+        }
+        .hero-bg{
+            bottom: 50px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .hero{
+        height: 720px;
+        .hero-content{
+            .korea-lng{
+                p{
+                    font-size: 14px;
+                }
+            }
+            h1{
+                font-size: 22px;
+            }
+            .topic-abouts{
+                .about{
+                    p{
+                        font-size: 9px;
+                    }
+                }
+            }
+            .hero-bottom{
+                margin: 340px auto;
+                a{
+                    button{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+        .hero-bg{
+            bottom: 50px;
+        }
+    }
+    
+}

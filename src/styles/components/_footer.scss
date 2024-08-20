@@ -1,0 +1,68 @@
+footer{
+    background: #333;
+    font-family: "HelveticaNeueCyr", sans-serif;
+    .footer-content{
+        padding: 23px 0 40px;
+        nav{
+            ul{
+                gap: 35px;
+                li{
+                    letter-spacing: 0.05em;
+                    color: #fff;
+                    cursor: pointer;
+                    &:hover{
+                        color: #ABDDB1;
+                    }
+                }
+                .soacialli{
+                    display: none;
+                }
+            }
+        }
+        .footer-right{
+            flex-direction: column;
+            gap: 20px;
+            .socils{
+                gap: 20px;
+            }
+            p{
+                font-size: 12px;
+                letter-spacing: 0.05em;
+                color: #999;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    footer{
+        .footer-content{
+            nav{
+                ul{
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    footer{
+        .footer-content{
+            nav{
+                ul{
+                    .soacialli{
+                        display: block;
+                        .socils{
+                            gap: 15px;
+                        }
+                    }
+                }
+            }
+            .footer-right{
+                display: none;
+            }
+        }
+    }
+}

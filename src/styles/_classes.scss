@@ -1,0 +1,45 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 800px) {
+   .container{
+        padding: 0 15px;
+   }
+}
+
+.title{
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-weight: 400;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}

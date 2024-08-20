@@ -1,0 +1,26 @@
+.btn{
+    box-shadow: 0 3px 0 0 #418e8b;
+    background: linear-gradient(90deg, #5faca9 0%, #73c0bd 50.57%, #5faca9 100%);
+    border-radius: 59px;
+    padding: 23px 25px;
+    width: 334px;
+    height: 78px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Gill Sans", sans-serif;
+    transition: 0.8s ease-in-out;
+    border: 0;
+    &:hover{
+        box-shadow: 0 6px 0 0 #80cbc8;
+        background: linear-gradient(90deg, #6aaaa7 0%, #97efec 50.57%, #3e6c6b 100%);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .btn{
+        width: 300px;
+    }
+}

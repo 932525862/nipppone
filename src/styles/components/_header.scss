@@ -1,0 +1,115 @@
+header{
+    .header-content{
+        padding: 10px 0;
+        gap: 15px;
+        .header-left{
+            .logo{
+                width: 164px;
+                height: 77px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            
+        }
+        .header-right{
+            padding-top: 20px;
+            width: 100%;
+            .logo-text{
+                font-family: "Gilroy", sans-serif;
+                max-width: 130px;
+                font-size: 12px;
+                line-height: 127%;
+                color: #000;
+            }
+            nav{
+                ul{
+                    gap: 35px;
+                    font-family: "HelveticaNeueCyr", sans-serif;
+                    li{
+                        letter-spacing: 0.05em;
+                        color: #333;
+                        &:hover{
+                            color: #ABDDB1;
+                        }
+                    }
+                }
+            }
+            .header-contact{
+                flex-direction: column;
+                cursor: pointer;
+                .tel-number{
+                    font-family: "Gilroy-Medium", sans-serif;
+                    font-size: 20px;
+                    color: #333;
+                }
+                .header-contact-bottom{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 300;
+                    font-size: 18px;
+                    letter-spacing: 0.03em;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1119px) {
+    header{
+        .header-content{
+            .header-right{
+                .header-contact{
+                    .tel-number{
+                        font-size: 16px;
+                    }
+                    .header-contact-bottom{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header{
+        .header-content{
+            .header-right{
+                nav{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    header{
+        .header-content{
+            .header-right{
+                .header-contact{
+                    .tel-number{
+                        font-size: 14px;
+                    }
+                    .header-contact-bottom{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header{
+        .header-content{
+            .header-right{
+                .logo-text{
+                    display: none;
+                }
+            }
+        }
+    }
+}
