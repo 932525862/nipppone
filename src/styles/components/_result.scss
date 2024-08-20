@@ -8,10 +8,10 @@
     .result-swiper{
         display: flex;
         flex-direction: column;
-        // align-items: center;
         gap: 20px;
         margin-bottom: 50px;
         img{
+            margin: 0 20px;
             width: 330px;
             height: 450px;
         }

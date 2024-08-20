@@ -139,3 +139,51 @@
   }
   
 }
+
+@media only screen and (max-width: 480px) {
+  .course{
+    .course-content{
+      .course-cards{
+        .course-card{
+          .card-img{
+            img{
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 380px) {
+  .course{
+    .course-content{
+      .course-cards{
+        .course-card{
+          .card-info{
+            button{
+              width: 120px;
+            }
+            .prices{
+              font-size: 11px;
+            }
+            .card-bottom{
+              button{
+                width: 120px;
+                
+              }
+              .prices{
+                font-size: 11px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}
+
