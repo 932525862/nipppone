@@ -1,8 +1,4 @@
 import { HeroButton } from "../button/heroButton";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 import studentImg from "../../assets/student-certificate.png";
 import Marquee from "react-fast-marquee";
 
