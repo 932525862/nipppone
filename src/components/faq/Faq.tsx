@@ -48,7 +48,7 @@ const Faq = () => {
           <div className="faq-accardions">
             {
               answerFaq.map((item: AnswerFaq, index: number) => {
-                return <div className="faq-accardion">
+                return <div className="faq-accardion" key={index}>
                 <div className="faq-accardion-header" onClick={() => toggleOpen(index)}>
                   <p>
                     {item.question}

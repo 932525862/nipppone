@@ -1,8 +1,7 @@
 import { useForm, SubmitHandler } from "react-hook-form";
-import Alert from "@mui/material/Alert";
 import axios from "axios";
-import { useState } from "react";
-import { Snackbar } from "@mui/material";
+import { toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 type FormValues = {
   name: string;
@@ -10,34 +9,13 @@ type FormValues = {
 };
 
 export const Support = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [open, setOpen] = useState<boolean>(false);
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
   } = useForm<FormValues>();
-  const isHandleClose = (
-    event?: React.SyntheticEvent | Event,
-    reason?: string
-  ) => {
-    if (reason === "clickaway") {
-      return;
-    }
-    console.log(event);
-    setIsOpen(false);
-  };
-  const handleClose = (
-    event?: React.SyntheticEvent | Event,
-    reason?: string
-  ) => {
-    if (reason === "clickaway") {
-      return;
-    }
-    console.log(event);
-    setOpen(false);
-  };
+  
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     const token: string = "7334254772:AAEmPl7riyPEqOmXCh-zP2MwXS1fwUq0EBY";
@@ -54,36 +32,16 @@ export const Support = () => {
     })
       .then((res) => {
         console.log(res);
-        setIsOpen(true);
+        toast.success("Succsess");
       })
       .catch((error) => {
-        setOpen(true);
+        toast.error("Error");
         console.log(error);
       });
     reset();
   };
   return (
     <section className="support" id="support">
-      <Snackbar open={isOpen} autoHideDuration={3000} onClose={isHandleClose}>
-        <Alert
-          onClose={handleClose}
-          severity="success"
-          variant="filled"
-          sx={{ width: "100%" }}
-        >
-          This is a success!
-        </Alert>
-      </Snackbar>
-      <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
-        <Alert
-          onClose={handleClose}
-          severity="error"
-          variant="filled"
-          sx={{ width: "100%" }}
-        >
-          Error
-        </Alert>
-      </Snackbar>
       <div className="container">
         <div className="support-content d-flex items-center justify-between">
           <div className="support-text">

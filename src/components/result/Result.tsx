@@ -1,4 +1,4 @@
-import { HeroButton } from "../button/heroButton";
+
 import studentImg from "../../assets/student-certificate.png";
 import Marquee from "react-fast-marquee";
 
@@ -62,13 +62,6 @@ export const Result = () => {
               <img src={studentImg} alt="photo" />
             </div>
           </Marquee>
-        </div>
-      </div>
-      <div className="container">
-        <div className="result-content d-flex justify-center">
-          <a href="#support">
-            <HeroButton text="ariza qoldirish"></HeroButton>
-          </a>
         </div>
       </div>
     </section>

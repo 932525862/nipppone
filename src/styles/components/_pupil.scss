@@ -1,44 +1,135 @@
 .pupil{
     padding: 50px 0;
-    .pupil-content{
-        width: 100%;
-        .title{
-            max-width: 794px;
-            text-align: center;
-            margin: 0 auto;
-            margin-bottom: 60px;
-        }
-        .pupil-menu{
-            .pupil-menu-left{
-                max-width: 421px;
-                h6{
-                    font-family: "Gilroy", sans-serif;
-                    font-weight: 400;
-                    font-size: 24px;
-                    color: #555;
-                    margin-bottom: 60px;
-                    span{
-                        color: #4b9895;
+    .pupil-inner{
+        .pupil-content{
+            width: 100%;
+            .title{
+                max-width: 794px;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 60px;
+            }
+            .pupil-menu{
+                .pupil-menu-inner{
+                    .pupil-menu-left{
+                        max-width: 421px;
+                        h6{
+                            font-family: "Gilroy", sans-serif;
+                            font-weight: 400;
+                            font-size: 24px;
+                            color: #555;
+                            margin-bottom: 60px;
+                            span{
+                                color: #4b9895;
+                            }
+                        }
+                        p{
+                            font-family: "Gilroy", sans-serif;
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: #444;
+                            margin-bottom: 22px;
+                            max-width: 275px;
+                        }
                     }
                 }
-                p{
-                    font-family: "Gilroy", sans-serif;
-                    font-weight: 400;
-                    font-size: 18px;
-                    color: #444;
-                    margin-bottom: 22px;
-                    max-width: 275px;
-                }
+                
             }
         }
+    }
+    .pupil-swiper{
+        margin-bottom: 30px;
+        .course-card {
+            border-radius: 40px;
+            width: 380px;
+            height: 450px;
+            background: #bffad973;
+            position: relative;
+            margin-right: 15px;
+            .card-info {
+              padding: 20px 28px;
+              .degree {
+                margin-bottom: 15px;
+                h6 {
+                  font-family: "Gilroy", sans-serif;
+                  font-weight: 400;
+                  font-size: 24px;
+                  color: #333;
+                }
+                p {
+                  border-radius: 31px;
+                  width: 129px;
+                  height: 29px;
+                  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.01);
+                  background: #61aba7;
+                  font-family: "Inter", sans-serif;
+                  font-weight: 500;
+                  font-size: 10px;
+                  line-height: 150%;
+                  color: #f7f7f7;
+                }
+              }
+              .description {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 150%;
+                color: #555;
+                max-width: 233px;
+                font-family: "Gilroy", sans-serif;
+                margin-bottom: 30px;
+                span {
+                  color: #e5b207;
+                }
+              }
+    
+              button {
+                position: absolute;
+                bottom: 20px;
+                left: 28px;
+                border-radius: 29px;
+                padding: 11px 12px;
+                width: 167px;
+                height: 38px;
+                box-shadow: 0 1px 0 0 #418e8b;
+                background: linear-gradient(
+                  90deg,
+                  #5faca9 0%,
+                  #73c0bd 50.57%,
+                  #5faca9 100%
+                );
+                font-weight: 600;
+                font-size: 8px;
+                letter-spacing: 0.01em;
+                text-transform: uppercase;
+                color: #fff;
+                font-family: "Gill Sans", sans-serif;
+                &:hover{
+                  box-shadow: 0 3px 0 0 #80cbc8;
+                  background: linear-gradient(90deg, #6aaaa7 0%, #97efec 50.57%, #3e6c6b 100%);
+              }
+              }
+              .prices {
+                position: absolute;
+                bottom: 27px;
+                right: 28px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 150%;
+                color: #4b9895;
+                font-family: "Poppins", sans-serif;
+              }
+            }
+          }
     }
 }
 
 @media only screen and (max-width: 479px) {
     .pupil{
-        .pupil-content{
-            .title{
-                font-size: 28px;
+        .pupil-inner{
+            .pupil-content{
+                .title{
+                    font-size: 28px;
+                }
             }
         }
     }

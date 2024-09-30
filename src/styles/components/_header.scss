@@ -3,13 +3,15 @@ header{
         padding: 10px 0;
         gap: 15px;
         .header-left{
+            display: flex;
+            align-items: center;
             .logo{
-                width: 164px;
-                height: 77px;
-                img{
-                    width: 100%;
-                    height: auto;
-                }
+            
+                    img{
+                        width: 90px;
+                    height: 90px;
+                    }
+                
             }
             
         }

@@ -6,7 +6,7 @@ export const GKS = () => {
       <div className="container">
         <div className="gks-content">
           <div className="title">
-            Koreya Universitetlariga 100% gacha grant yutish imkoniyati
+            Yaponiya Universitetlariga 100% gacha grant yutish imkoniyati
           </div>
           <div className="gks-menu d-flex justify-between items-center">
             <div className="menu-left">
@@ -35,22 +35,6 @@ export const GKS = () => {
               
             </div>
           </div>
-          <div className="video">
-          <div className="video-iframe">
-                <iframe
-                    width="560"
-                    height="315"
-                    src={`https://www.youtube.com/embed/8n30SNcEZJE?&autoplay=1&amp;rel=0&enablejsapi=1`}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    title="Embedded youtube"
-                  />
-                </div>
-                <div className="video-sub d-flex items-center">GKS granti haqida to’liq siz uchun tayyorlagan video suhbatimizda bilib oling! ...</div>
-          </div>
-          
-
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ export const Academy = () => {
     <section className="academy" id="we">
         <div className="container">
             <div className="academy-content">
-                <div className="title">Nima uchun aynan TOPIK academy?</div>
+                <div className="title">Nima uchun aynan Nippon Study Center?</div>
                 <div className="academy-cards">
                     <div className="academy-card">
                         <div className="count flex-center">01</div>

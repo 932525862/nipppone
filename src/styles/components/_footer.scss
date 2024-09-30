@@ -3,6 +3,12 @@ footer{
     font-family: "HelveticaNeueCyr", sans-serif;
     .footer-content{
         padding: 23px 0 40px;
+        .footer-logo{
+            img{
+                height: 120px;
+                width: 120px;
+            }
+        }
         nav{
             ul{
                 gap: 35px;

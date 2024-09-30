@@ -3,6 +3,8 @@
     .support-content{
         box-shadow: 0 0 46px 5px rgba(171, 221, 177, 0.15);
         background: linear-gradient(90deg, rgba(125, 202, 199, 0.65) 0%, rgba(197, 242, 203, 0.65) 100%);
+        background-repeat: no-repeat;
+        background-size: contain;
         border-radius: 10px;
         width: 100%;
         padding: 50px 150px;

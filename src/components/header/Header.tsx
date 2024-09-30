@@ -12,7 +12,7 @@ export const Header = () => {
           </div>
           <div className="header-right d-flex items-center justify-between">
             <div className="logo-text">
-              Toshkentda joylashgan Koreys tili hamda Topik o’quv markazi
+              Qashqadaryoda joylashgan Yapon tili o’quv markazi
             </div>
             <nav>
               <ul className="d-flex">

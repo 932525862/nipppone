@@ -1,6 +1,6 @@
 .btn{
     box-shadow: 0 3px 0 0 #418e8b;
-    background: linear-gradient(90deg, #5faca9 0%, #73c0bd 50.57%, #5faca9 100%);
+    background: linear-gradient(90deg, #5faca9, #73c0bd 50.57%, #5faca9);
     border-radius: 59px;
     padding: 23px 25px;
     width: 334px;
@@ -11,7 +11,7 @@
     color: #fff;
     cursor: pointer;
     font-family: "Gill Sans", sans-serif;
-    transition: 0.8s ease-in-out;
+    transition: 0.4s ease-in-out;
     border: 0;
     &:hover{
         box-shadow: 0 6px 0 0 #80cbc8;

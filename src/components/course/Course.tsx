@@ -1,8 +1,11 @@
+import { FC } from "react"
 import intiensiveImg from "../../assets/house-1.png"
-// import easyImg from "../../assets/house-2.png"
-// import individualImg from "../../assets/house-3.png"
 
-export const Course = () => {
+interface CourseProps{
+  setOpen: (item: boolean)=> void
+}
+
+export const Course: FC<CourseProps> = ({setOpen}) => {
   return (
     <section className="course" id="course">
         <div className="container">
@@ -18,7 +21,7 @@ export const Course = () => {
                     </div>
                     <div className="description"><span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.</div>
                     <div className="card-bottom d-flex justify-between items-center">
-                      <button className="btn">Ro’yxatdan o’tish</button>
+                      <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
                       <div className="prices">970.000 so’m /oy</div>
                     </div>
                   </div>
@@ -32,7 +35,7 @@ export const Course = () => {
                     </div>
                     <div className="description">Haftada 3 kun 1.5 soatdan iborat odatiy Koreys tili darslari.</div>
                     <div className="card-bottom d-flex justify-between items-center">
-                      <button className="btn">Ro’yxatdan o’tish</button>
+                      <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
                       <div className="prices">560.000 so’m /oy</div>
                     </div>
                   </div>
@@ -45,7 +48,7 @@ export const Course = () => {
                       <p className="flex-center">Davomiyligi: 5 oy</p>
                     </div>
                     <div className="description">O’qituvchidan <span>individual</span> dars olmoqchi bo’lganlar uchun haftada 3 kun 1.5 soatdan darslar. Moslashuvchan grafik va individual yondashuv.</div>
-                    <button className="btn">Ro’yxatdan o’tish</button>
+                    <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
                     <div className="prices">1.800.000 so’m /oy</div>
                   </div>
                 </div>
