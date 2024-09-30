@@ -31,8 +31,8 @@ export const Header = () => {
               </ul>
             </nav>
             <div className="header-contact d-flex items-center">
-              <a href="tel:+998333060098"><div className="tel-number">+998 (33) 306 0098</div></a>
-              <a href="tel:+998333060098"><div className="header-contact-bottom">Hoziroq bog'laning</div></a>
+              <a href="tel:+998000000000"><div className="tel-number">+998 (00) 000 0000</div></a>
+              <a href="tel:+998000000000"><div className="header-contact-bottom">Hoziroq bog'laning</div></a>
             </div>
           </div>
         </div>

@@ -14,6 +14,7 @@ import { Result } from './components/result/Result'
 import { Pupil } from './components/succsess/Pupil'
 import { Support } from './components/support/Support'
 import { ToastContainer} from 'react-toastify';
+import News from './components/news/News'
 
 function App() {
   const [open, setOpen] = useState<boolean>(false)
@@ -26,6 +27,7 @@ function App() {
         <Header/>
         <main>
           <Hero/>
+          <News/>
           <About/>
           <Result/>
           <GKS/>

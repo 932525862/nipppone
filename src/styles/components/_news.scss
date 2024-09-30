@@ -1,0 +1,104 @@
+.news{
+    padding: 50px 0 10px;
+    .news-content{
+        position: relative;
+        .title{
+            margin-bottom: 30px;
+        }
+        .swiper-slide{
+            border-radius: 20px;
+            img{
+                border-radius: 20px;
+                height: 500px;
+                width: 100%;
+            }
+        }
+        .navigates{
+            width: 95%;
+            position: absolute;
+            z-index: 999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: space-between;
+            .swiper-button-next, .swiper-button-prev{
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #ffffffb3;
+                border-radius: 50%;
+                border: 1px solid #36374040;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .news{
+        .news-content{
+            .title{
+                font-size: 32px;
+            }
+            .swiper-slide{
+                img{
+                    height: 400px;
+                }
+            }
+            .swiper-pagination{
+                display: none;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .news{
+        padding-top: 30px;
+        padding-bottom: 0;
+        .news-content{
+            
+            .swiper-slide{
+                img{
+                    height: 300px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 639px) {
+    .news{
+        .news-content{
+            .title{
+                font-size: 22px;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .news{
+        .news-content{
+            .swiper-slide{
+                img{
+                    height: 200px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .news{
+        padding-top: 0;
+    }
+    
+}

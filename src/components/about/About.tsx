@@ -24,7 +24,7 @@ export const About = () => {
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={moneyImg} alt="photo" /></div>
-                        <div className="card-text">Topik sertifikatini olib Koreyaning nufuzli universitetlariga <span>GRANT</span> yutmoqchisiz</div>
+                        <div className="card-text">JLPT sertifikatini olib Yaponiyaning nufuzli universitetlariga <span>GRANT</span> yutmoqchisiz</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={travelImg} alt="photo" /></div>
