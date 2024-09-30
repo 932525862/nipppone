@@ -22,7 +22,6 @@ const ModalCard: FC<ModalCardProps> = ({ open, setOpen }) => {
     register,
     handleSubmit,
     setValue,
-    // formState: { errors },
     reset
   } = useForm<FormValues>();
   const [phone, setPhone] = useState<string>("");
