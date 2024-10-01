@@ -20,7 +20,7 @@ export const Academy = () => {
                     <div className="academy-card">
                         <div className="count flex-center">03</div>
                         <div className="card-title">Haftalik tadbirlar</div>
-                        <div className="card-description">TOPIK acdemy jamoasi o’quvchilari uchun doimiy ravishda qo’shimcha tadbirar tashkilb keladi</div>
+                        <div className="card-description">Nippon Study Center jamoasi o’quvchilari uchun doimiy ravishda qo’shimcha tadbirar tashkilb keladi</div>
                     </div>
                     <div className="academy-card">
                         <div className="count flex-center">04</div>
@@ -35,7 +35,7 @@ export const Academy = () => {
                     <div className="academy-card">
                         <div className="count flex-center">06</div>
                         <div className="card-title">Konsulting xizmatlar</div>
-                        <div className="card-description">Muvafaqqiyatli bitirgan talabalarimizga Janubiy Koreyada o’qish uchun visa olishda, universitet tanlash va grand yutishda yordam beramiz</div>
+                        <div className="card-description">Muvafaqqiyatli bitirgan talabalarimizga Yaponiyada o’qish uchun visa olishda, universitet tanlash va grand yutishda yordam beramiz</div>
                     </div>
                 </div>
             </div>

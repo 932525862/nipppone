@@ -1,117 +1,202 @@
-header{
-    .header-content{
-        padding: 10px 0;
-        gap: 15px;
-        .header-left{
-            display: flex;
-            align-items: center;
-            .logo{
-            
-                    img{
-                        width: 90px;
-                    height: 90px;
-                    }
-                
-            }
-            
+header {
+  position: relative;
+  //   overflow-x: hidden;
+  //   overflow-y: hidden;
+  .mobile-nav {
+    display: none;
+  }
+  .header-content {
+    padding: 10px 0;
+    gap: 15px;
+    .header-left {
+      display: flex;
+      align-items: center;
+      .logo {
+        img {
+          width: 90px;
+          height: 90px;
         }
-        .header-right{
-            padding-top: 20px;
-            width: 100%;
-            .logo-text{
-                font-family: "Gilroy", sans-serif;
-                max-width: 130px;
-                font-size: 12px;
-                line-height: 127%;
-                color: #000;
-            }
-            nav{
-                ul{
-                    gap: 35px;
-                    font-family: "HelveticaNeueCyr", sans-serif;
-                    li{
-                        letter-spacing: 0.05em;
-                        color: #333;
-                        &:hover{
-                            color: #ABDDB1;
-                        }
-                    }
-                }
-            }
-            .header-contact{
-                flex-direction: column;
-                cursor: pointer;
-                .tel-number{
-                    font-family: "Gilroy-Medium", sans-serif;
-                    font-size: 20px;
-                    color: #333;
-                }
-                .header-contact-bottom{
-                    font-family: "Inter", sans-serif;
-                    font-weight: 300;
-                    font-size: 18px;
-                    letter-spacing: 0.03em;
-                    color: #000;
-                }
-            }
-        }
+      }
     }
+    .header-right {
+      padding-top: 20px;
+      width: 100%;
+      .logo-text {
+        font-family: "Gilroy", sans-serif;
+        max-width: 130px;
+        font-size: 12px;
+        line-height: 127%;
+        color: #000;
+      }
+      nav {
+        ul {
+          gap: 35px;
+          font-family: "HelveticaNeueCyr", sans-serif;
+          li {
+            letter-spacing: 0.05em;
+            color: #333;
+            &:hover {
+              color: #abddb1;
+            }
+          }
+        }
+      }
+      .burger-language {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        .languages {
+          display: flex;
+          gap: 10px;
+          .language {
+            cursor: pointer;
+            img {
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+        .burger {
+          cursor: pointer;
+          display: none;
+        }
+      }
+      .header-contact {
+        flex-direction: column;
+        cursor: pointer;
+        .tel-number {
+          font-family: "Gilroy-Medium", sans-serif;
+          font-size: 20px;
+          color: #333;
+        }
+        .header-contact-bottom {
+          font-family: "Inter", sans-serif;
+          font-weight: 300;
+          font-size: 18px;
+          letter-spacing: 0.03em;
+          color: #000;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1119px) {
-    header{
-        .header-content{
-            .header-right{
-                .header-contact{
-                    .tel-number{
-                        font-size: 16px;
-                    }
-                    .header-contact-bottom{
-                        font-size: 15px;
-                    }
-                }
-            }
+  header {
+    .header-content {
+      .header-right {
+        .header-contact {
+          .tel-number {
+            font-size: 16px;
+          }
+          .header-contact-bottom {
+            font-size: 15px;
+          }
         }
+      }
     }
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-    header{
-        .header-content{
-            .header-right{
-                nav{
-                    display: none;
-                }
-            }
+  header {
+    .mobile-nav {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      backdrop-filter: blur(5px);
+      flex-direction: column;
+      position: absolute;
+      left: -100%;
+      top: 0;
+      background: #fff;
+      transition: all 0.5s ease-in-out;
+      height: 100vh;
+      visibility: visible;
+      width: 60%;
+      z-index: 9999;
+      padding: 30px 30px;
+      .close-nav {
+        cursor: pointer;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        font-family: "HelveticaNeueCyr", sans-serif;
+        align-items: center;
+        li {
+          letter-spacing: 0.05em;
+          color: #333;
+          font-size: 18px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          a{
+            font-weight: 500;
+          }
         }
+      }
     }
+    .mobile-nav-active {
+      left: 0;
+    }
+    .header-content {
+      .header-right {
+        .burger-language {
+          .burger {
+            display: block;
+          }
+        }
+
+        nav {
+          display: none;
+        }
+        .header-contact {
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 639px) {
-    header{
-        .header-content{
-            .header-right{
-                .header-contact{
-                    .tel-number{
-                        font-size: 14px;
-                    }
-                    .header-contact-bottom{
-                        font-size: 13px;
-                    }
-                }
-            }
-        }
+  header {
+    .mobile-nav{
+        width: 80%;
     }
+    .header-content {
+      .header-right {
+        .header-contact {
+          .tel-number {
+            font-size: 14px;
+          }
+          .header-contact-bottom {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    header{
-        .header-content{
-            .header-right{
-                .logo-text{
-                    display: none;
-                }
-            }
-        }
+  header {
+    .mobile-nav{
+        width: 100%;
     }
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      .header-right {
+        width: auto;
+        .burger-language {
+          gap: 15px;
+        }
+        .logo-text {
+          display: none;
+        }
+      }
+    }
+  }
 }
