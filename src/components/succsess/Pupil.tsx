@@ -21,7 +21,7 @@ export const Pupil: FC<PupilProps> = ({setOpen}) => {
       </div>
       <div className="pupil-swiper">
         <div className="swiper-top">
-          <Marquee>
+          <Marquee pauseOnHover={true}>
             <div className="course-card">
               <div className="card-img">
                 <img src={intiensiveImg} alt="photo" />

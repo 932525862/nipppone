@@ -4,19 +4,43 @@ import ru from "../../assets/ru.png";
 import uz from "../../assets/uz.png";
 import i18n from "../../i18next";
 import { LuMenu } from "react-icons/lu";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 
 export const Header = () => {
-  const [burgerOpen, setBurgerOpen] = useState<boolean>(false);
+  const [burgerOpen, setBurgerOpen] = useState<boolean>(true);
+  const mobileNavRef = useRef<HTMLDivElement>(null);
+  const burgerButtonRef = useRef<HTMLDivElement>(null);
   function changeLng(text: string) {
     localStorage.setItem("nipponLng", text);
     i18n.changeLanguage(text);
   }
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        mobileNavRef.current &&
+        !mobileNavRef.current.contains(event.target as Node) &&
+        burgerButtonRef.current &&
+        !burgerButtonRef.current.contains(event.target as Node) // burger tugmasini tashqarida bosilganini tekshirish
+      ) {
+        setBurgerOpen(false);
+      }
+    };
+
+    if (burgerOpen) {
+      window.addEventListener("click", handleClickOutside);
+    } else {
+      window.removeEventListener("click", handleClickOutside);
+    }
+
+    return () => {
+      window.removeEventListener("click", handleClickOutside);
+    };
+  }, [burgerOpen]);
 
   return (
     <header>
-      <div className={`mobile-nav ${burgerOpen ? "mobile-nav-active" : ""}`}>
+      <div ref={mobileNavRef} className={`mobile-nav ${burgerOpen ? "mobile-nav-active" : ""}`}>
         <div className="close-nav" onClick={() => setBurgerOpen(false)}>
         <IoCloseSharp style={{fontSize: "30px"}}/>
         </div>
@@ -84,7 +108,7 @@ export const Header = () => {
                   <img src={uz} alt="flag" />
                 </div>
               </div>
-              <div className="burger" onClick={() => setBurgerOpen(true)}>
+              <div ref={burgerButtonRef} className="burger" onClick={() => setBurgerOpen(true)}>
                 <LuMenu style={{ fontSize: "30px" }} />
               </div>
             </div>

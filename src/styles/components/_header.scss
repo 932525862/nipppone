@@ -118,6 +118,7 @@ header {
       padding: 30px 30px;
       .close-nav {
         cursor: pointer;
+        align-self: flex-end;
       }
       ul {
         display: flex;
