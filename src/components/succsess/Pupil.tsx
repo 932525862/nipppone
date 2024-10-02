@@ -8,7 +8,7 @@ interface PupilProps{
 
 export const Pupil: FC<PupilProps> = ({setOpen}) => {
   return (
-    <section className="pupil" id="result">
+    <section className="pupil" >
       <div className="container">
         <div className="pupil-inner">
           <div className="pupil-content ">
@@ -19,142 +19,55 @@ export const Pupil: FC<PupilProps> = ({setOpen}) => {
           </div>
         </div>
       </div>
-      <div className="pupil-swiper">
+      <div className="university-swiper">
         <div className="swiper-top">
           <Marquee pauseOnHover={true}>
-            <div className="course-card">
+            <div className="university-card">
               <div className="card-img">
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <div className="degree d-flex justify-between">
-                  <h6>Intiensive</h6>
-                  <p className="flex-center">Davomiyligi: 5 oy</p>
-                </div>
-                <div className="description">
-                  <span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar
-                  uchun haftada 6 kun 1.5 soatdan intensive kurs.
-                </div>
-                <div className="card-bottom d-flex justify-between items-center">
-                  <button className="btn">Ro’yxatdan o’tish</button>
-                  <div className="prices">970.000 so’m /oy</div>
-                </div>
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sunt delectus? Nostrum aliquid maiores suscipit labore reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis </p>
               </div>
             </div>
-            <div className="course-card">
+            <div className="university-card">
               <div className="card-img">
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <div className="degree d-flex justify-between">
-                  <h6>Intiensive</h6>
-                  <p className="flex-center">Davomiyligi: 5 oy</p>
-                </div>
-                <div className="description">
-                  <span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar
-                  uchun haftada 6 kun 1.5 soatdan intensive kurs.
-                </div>
-                <div className="card-bottom d-flex justify-between items-center">
-                  <button className="btn">Ro’yxatdan o’tish</button>
-                  <div className="prices">970.000 so’m /oy</div>
-                </div>
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sunt delectus? Nostrum aliquid</p>
               </div>
             </div>
-            <div className="course-card">
+            <div className="university-card">
               <div className="card-img">
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <div className="degree d-flex justify-between">
-                  <h6>Intiensive</h6>
-                  <p className="flex-center">Davomiyligi: 5 oy</p>
-                </div>
-                <div className="description">
-                  <span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar
-                  uchun haftada 6 kun 1.5 soatdan intensive kurs.
-                </div>
-                <div className="card-bottom d-flex justify-between items-center">
-                  <button className="btn">Ro’yxatdan o’tish</button>
-                  <div className="prices">970.000 so’m /oy</div>
-                </div>
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet conseciquid maiores suscipit labore reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
               </div>
             </div>
-            <div className="course-card">
+            <div className="university-card">
               <div className="card-img">
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <div className="degree d-flex justify-between">
-                  <h6>Intiensive</h6>
-                  <p className="flex-center">Davomiyligi: 5 oy</p>
-                </div>
-                <div className="description">
-                  <span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar
-                  uchun haftada 6 kun 1.5 soatdan intensive kurs.
-                </div>
-                <div className="card-bottom d-flex justify-between items-center">
-                  <button className="btn">Ro’yxatdan o’tish</button>
-                  <div className="prices">970.000 so’m /oy</div>
-                </div>
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Liberoabore reiciendis possimus provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
               </div>
             </div>
-            <div className="course-card">
+            <div className="university-card">
               <div className="card-img">
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <div className="degree d-flex justify-between">
-                  <h6>Intiensive</h6>
-                  <p className="flex-center">Davomiyligi: 5 oy</p>
-                </div>
-                <div className="description">
-                  <span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar
-                  uchun haftada 6 kun 1.5 soatdan intensive kurs.
-                </div>
-                <div className="card-bottom d-flex justify-between items-center">
-                  <button className="btn">Ro’yxatdan o’tish</button>
-                  <div className="prices">970.000 so’m /oy</div>
-                </div>
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Lorem ipsum dolor sit amet consectetur  reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
               </div>
             </div>
-            <div className="course-card">
-              <div className="card-img">
-                <img src={intiensiveImg} alt="photo" />
-              </div>
-              <div className="card-info">
-                <div className="degree d-flex justify-between">
-                  <h6>Intiensive</h6>
-                  <p className="flex-center">Davomiyligi: 5 oy</p>
-                </div>
-                <div className="description">
-                  <span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar
-                  uchun haftada 6 kun 1.5 soatdan intensive kurs.
-                </div>
-                <div className="card-bottom d-flex justify-between items-center">
-                  <button className="btn">Ro’yxatdan o’tish</button>
-                  <div className="prices">970.000 so’m /oy</div>
-                </div>
-              </div>
-            </div>
-            <div className="course-card">
-              <div className="card-img">
-                <img src={intiensiveImg} alt="photo" />
-              </div>
-              <div className="card-info">
-                <div className="degree d-flex justify-between">
-                  <h6>Intiensive</h6>
-                  <p className="flex-center">Davomiyligi: 5 oy</p>
-                </div>
-                <div className="description">
-                  <span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar
-                  uchun haftada 6 kun 1.5 soatdan intensive kurs.
-                </div>
-                <div className="card-bottom d-flex justify-between items-center">
-                  <button className="btn">Ro’yxatdan o’tish</button>
-                  <div className="prices">970.000 so’m /oy</div>
-                </div>
-              </div>
-            </div>
+            
           </Marquee>
         </div>
       </div>

@@ -15,6 +15,7 @@ import { Pupil } from './components/succsess/Pupil'
 import { Support } from './components/support/Support'
 import { ToastContainer} from 'react-toastify';
 import News from './components/news/News'
+import ResultsPupil from './components/resultsPupil/ResultsPupil'
 
 function App() {
   const [open, setOpen] = useState<boolean>(false)
@@ -31,6 +32,7 @@ function App() {
           <About/>
           <Result/>
           <GKS/>
+          <ResultsPupil/>
           <Pupil setOpen={setOpen}/>
           <Course setOpen={setOpen}/>
           <Academy/>

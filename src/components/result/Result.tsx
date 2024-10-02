@@ -1,5 +1,19 @@
 
-import studentImg from "../../assets/student-certificate.png";
+import sertificate1 from "../../assets/certificate-1.jpg";
+import sertificate2 from "../../assets/certificate-2.jpg";
+import sertificate3 from "../../assets/certificate-3.jpg";
+import sertificate4 from "../../assets/certificate-4.jpg";
+import sertificate5 from "../../assets/certificate-5.jpg";
+import sertificate6 from "../../assets/certificate-6.jpg";
+import sertificate7 from "../../assets/certificate-7.jpg";
+import visa1 from "../../assets/visa-1.png";
+import visa2 from "../../assets/visa-2.jpg";
+import visa3 from "../../assets/visa-3.jpg";
+import visa4 from "../../assets/visa-4.jpg";
+import visa5 from "../../assets/visa-5.jpg";
+import visa6 from "../../assets/visa-6.jpg";
+import visa7 from "../../assets/visa-7.jpg";
+import visa8 from "../../assets/visa-8.jpg";
 import Marquee from "react-fast-marquee";
 
 export const Result = () => {
@@ -8,7 +22,7 @@ export const Result = () => {
       <div className="container">
         <div className="result-content">
           <h4 className="title">
-            O’quvchilarimizning natijalari TOPIK 6 gacha
+            O’quvchilarimizning natijalari N1 darajagacha
           </h4>
         </div>
       </div>
@@ -16,50 +30,63 @@ export const Result = () => {
         <div className="swiper-top">
           <Marquee direction="right">
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={sertificate1} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={sertificate2} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={sertificate3} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={sertificate4} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={sertificate5} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={sertificate6} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={sertificate7} alt="photo" />
             </div>
           </Marquee>
         </div>
+        
+      </div>
+      <div className="container">
+        <div className="result-content">
+          <h4 className="title">
+            O’quvchilarimizning natijalari VISA olganlar
+          </h4>
+        </div>
+      </div>
+      <div className="result-swiper">
         <div className="swiper-bottom">
           <Marquee>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={visa1} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={visa2} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={visa3} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={visa4} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={visa5} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={visa6} alt="photo" />
             </div>
             <div>
-              <img src={studentImg} alt="photo" />
+              <img src={visa7} alt="photo" />
+            </div>
+            <div>
+              <img src={visa8} alt="photo" />
             </div>
           </Marquee>
         </div>

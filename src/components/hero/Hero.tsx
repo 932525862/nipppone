@@ -8,7 +8,7 @@ export const Hero = () => {
         <div className="hero-content">
           <div className="korea-lng d-flex items-center">
             <div className="line"></div>
-            <p>3 oyda Yapon tilida gapirishni boshlang</p>
+            <p>6 oyda Yapon tilida gapirishni boshlang</p>
           </div>
           <h1>
             Yaponiya Universitetlarida 100% gacha grant asosida o’qish
@@ -30,7 +30,7 @@ export const Hero = () => {
                   />
                 </svg>
               </div>
-              <p>5 oyda Topikdan 6 darajagacha olishda yordam beramiz</p>
+              <p> 2 yilda Yapon tilidan N1 darajagacha olishda yordam beramiz</p>
             </div>
             <div className="about d-flex items-center">
               <div className="about-bg">
@@ -48,7 +48,7 @@ export const Hero = () => {
                 </svg>
               </div>
               <p>
-                Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish
+                Yapon tilidan yuqori darajani qo’lga kiritib, Yaponiyada o’qish
                 va ishlash imkoniyati
               </p>
             </div>

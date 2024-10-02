@@ -16,27 +16,27 @@ export const About = () => {
                 <div className="about-cards d-flex justify-center">
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={chatImg} alt="photo" /></div>
-                        <div className="card-text"><span>Qisqa</span> muddat ichida Yapon tilida gapirishni istaysiz</div>
+                        <div className="card-text">Qisqa muddat ichida Yapon tilida gapirishni istaysiz</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={rocketImg} alt="photo" /></div>
-                        <div className="card-text">Yapon tili o’rganib o’z <span>karyerangizni</span> qurmoqchisiz</div>
+                        <div className="card-text">Yapon tili o’rganib o’z karyerangizni qurmoqchisiz</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={moneyImg} alt="photo" /></div>
-                        <div className="card-text">JLPT sertifikatini olib Yaponiyaning nufuzli universitetlariga <span>GRANT</span> yutmoqchisiz</div>
+                        <div className="card-text">JLPT sertifikatini olib Yaponiyaning nufuzli universitetlariga GRANT yutmoqchisiz</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={travelImg} alt="photo" /></div>
-                        <div className="card-text">Yaponiya davlatida <span>o’qish</span> va <span>ishlash</span> uchun ketmoqchisiz</div>
+                        <div className="card-text">Yaponiya davlatida o’qish va ishlash uchun ketmoqchisiz</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={targetImg} alt="photo" /></div>
-                        <div className="card-text">Yapon tilini o’rta darajada bilasiz va darajangizni <span>oshirmoqchisiz</span></div>
+                        <div className="card-text">Yapon tilini o’rta darajada bilasiz va darajangizni oshirmoqchisiz</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={keyImg} alt="photo" /></div>
-                        <div className="card-text">Ko’p yillardan buyon o’qib ham <span>natijaga</span> chiqa olmayapsiz</div>
+                        <div className="card-text">Ko’p yillardan buyon o’qib ham natijaga chiqa olmayapsiz</div>
                     </div>
                 </div>
             </div>

@@ -16,13 +16,13 @@ export const Course: FC<CourseProps> = ({setOpen}) => {
                   <div className="card-img"><img src={intiensiveImg} alt="photo" /></div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>Intiensive</h6>
-                      <p className="flex-center">Davomiyligi: 5 oy</p>
+                      <h6>Sertifikat</h6>
+                      <p className="flex-center">Davomiyligi: 12 oy</p>
                     </div>
-                    <div className="description"><span>Koreys tilini</span> chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.</div>
+                    <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere perspiciatis blanditiis culpa, quo omnis!</div>
                     <div className="card-bottom d-flex justify-between items-center">
                       <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
-                      <div className="prices">970.000 so’m /oy</div>
+                      <div className="prices">999.000 so’m /oy</div>
                     </div>
                   </div>
                 </div>
@@ -30,13 +30,13 @@ export const Course: FC<CourseProps> = ({setOpen}) => {
                   <div className="card-img"><img src={intiensiveImg} alt="photo" /></div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>Odatiy</h6>
-                      <p className="flex-center">Davomiyligi: 5 oy</p>
+                      <h6>Visa</h6>
+                      <p className="flex-center">Davomiyligi: 12 oy</p>
                     </div>
-                    <div className="description">Haftada 3 kun 1.5 soatdan iborat odatiy Koreys tili darslari.</div>
+                    <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, distinctio ipsam obcaecati voluptate laudantium provident?</div>
                     <div className="card-bottom d-flex justify-between items-center">
                       <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
-                      <div className="prices">560.000 so’m /oy</div>
+                      <div className="prices">999.000 so’m /oy</div>
                     </div>
                   </div>
                 </div>
@@ -44,12 +44,12 @@ export const Course: FC<CourseProps> = ({setOpen}) => {
                   <div className="card-img"><img src={intiensiveImg} alt="photo" /></div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>Individual</h6>
-                      <p className="flex-center">Davomiyligi: 5 oy</p>
+                      <h6>Universititet</h6>
+                      <p className="flex-center">Davomiyligi: 12 oy</p>
                     </div>
-                    <div className="description">O’qituvchidan <span>individual</span> dars olmoqchi bo’lganlar uchun haftada 3 kun 1.5 soatdan darslar. Moslashuvchan grafik va individual yondashuv.</div>
+                    <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, animi culpa iure voluptatibus similique corporis.</div>
                     <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
-                    <div className="prices">1.800.000 so’m /oy</div>
+                    <div className="prices">999.000 so’m /oy</div>
                   </div>
                 </div>
               </div>

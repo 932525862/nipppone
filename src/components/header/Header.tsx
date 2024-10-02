@@ -58,10 +58,10 @@ export const Header = () => {
             <a href="#faq">Ko'p beriladigan savollar</a>
           </li>
           <li onClick={() => setBurgerOpen(false)}>
-            <a href="tel:+998000000000">
-              <div className="tel-number">+998 (00) 000 0000</div>
+            <a href="tel:+998953255000">
+              <div className="tel-number">+998 (95) 325 5000</div>
             </a>
-            <a href="tel:+998000000000">
+            <a href="tel:+998953255000">
               <div className="header-contact-bottom">Hoziroq bog'laning</div>
             </a>
           </li>
@@ -114,10 +114,10 @@ export const Header = () => {
             </div>
 
             <div className="header-contact d-flex items-center">
-              <a href="tel:+998000000000">
-                <div className="tel-number">+998 (00) 000 0000</div>
+              <a href="tel:+998953255000">
+                <div className="tel-number">+998 (95) 325 5000</div>
               </a>
-              <a href="tel:+998000000000">
+              <a href="tel:+998953255000">
                 <div className="header-contact-bottom">Hoziroq bog'laning</div>
               </a>
             </div>
