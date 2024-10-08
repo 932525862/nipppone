@@ -1,11 +1,10 @@
 import { HeroButton } from "../button/heroButton";
-import heroBg from "../../assets/hero-bg.png"
 
 export const Hero = () => {
   return (
     <section className="hero">
       <div className="container">
-        <div className="hero-content">
+      <div className="hero-content">
           <div className="korea-lng d-flex items-center">
             <div className="line"></div>
             <p>6 oyda Yapon tilida gapirishni boshlang</p>
@@ -59,7 +58,6 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="hero-bg"><img src={heroBg} alt="photo" /></div>
     </section>
   );
 };

@@ -1,39 +1,13 @@
-.pupil{
+.university{
     padding: 50px 0;
-    .pupil-inner{
-        .pupil-content{
+    .university-inner{
+        .university-content{
             width: 100%;
             .title{
                 max-width: 794px;
                 text-align: center;
                 margin: 0 auto;
                 margin-bottom: 60px;
-            }
-            .pupil-menu{
-                .pupil-menu-inner{
-                    .pupil-menu-left{
-                        max-width: 421px;
-                        h6{
-                            font-family: "Gilroy", sans-serif;
-                            font-weight: 400;
-                            font-size: 24px;
-                            color: #555;
-                            margin-bottom: 60px;
-                            span{
-                                color: #4b9895;
-                            }
-                        }
-                        p{
-                            font-family: "Gilroy", sans-serif;
-                            font-weight: 400;
-                            font-size: 18px;
-                            color: #444;
-                            margin-bottom: 22px;
-                            max-width: 275px;
-                        }
-                    }
-                }
-                
             }
         }
     }
@@ -43,9 +17,8 @@
             border-radius: 40px;
             width: 380px;
             height: 450px;
-            background: #bffad973;
+            background: #ffffff;
             margin-right: 15px;
-            
             .card-info {
               padding: 20px 28px;
               h6 {

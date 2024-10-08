@@ -13,6 +13,20 @@
 }
 body{
     overflow-x: hidden;
+
+}
+.bg-body{
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    background-image: url("../assets/body-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.3;
+    backdrop-filter: blur(50px);
+    filter: brightness(80%) contrast(90%) saturate(120%);
 }
 
 li{

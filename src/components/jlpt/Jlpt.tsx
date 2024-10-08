@@ -1,6 +1,6 @@
 import gksImg from "../../assets/jlpt.png";
 
-export const GKS = () => {
+export const JLPT = () => {
   return (
     <section className="gks">
       <div className="container">

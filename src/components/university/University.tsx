@@ -2,16 +2,16 @@ import Marquee from "react-fast-marquee";
 import { HeroButton } from "../button/heroButton";
 import intiensiveImg from "../../assets/house-1.png";
 import { FC } from "react";
-interface PupilProps{
+interface UniversityProps{
     setOpen: (item: boolean)=> void
 }
 
-export const Pupil: FC<PupilProps> = ({setOpen}) => {
+export const University: FC<UniversityProps> = ({setOpen}) => {
   return (
-    <section className="pupil" >
+    <section className="university" >
       <div className="container">
-        <div className="pupil-inner">
-          <div className="pupil-content ">
+        <div className="university-inner">
+          <div className="university-content ">
             <div className="title ">
               Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant
               yutishda yordam beramiz

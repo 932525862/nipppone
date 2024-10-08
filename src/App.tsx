@@ -6,12 +6,12 @@ import { Academy } from './components/academy/Academy'
 import { Course } from './components/course/Course'
 import Faq from './components/faq/Faq'
 import { Footer } from './components/footer/Footer'
-import { GKS } from './components/gks/GKS'
+import { JLPT } from './components/jlpt/Jlpt'
 import { Header } from './components/header/Header'
 import { Hero } from './components/hero/Hero'
 import ModalCard from './components/modal/Modal'
 import { Result } from './components/result/Result'
-import { Pupil } from './components/succsess/Pupil'
+import { University } from './components/university/University'
 import { Support } from './components/support/Support'
 import { ToastContainer} from 'react-toastify';
 import News from './components/news/News'
@@ -22,6 +22,7 @@ function App() {
 
   return (
     <>
+    <div className='bg-body'></div>
       <ToastContainer />
       <ModalCard open={open} setOpen={setOpen}/>
       <div className="wrapper">
@@ -31,9 +32,9 @@ function App() {
           <News/>
           <About/>
           <Result/>
-          <GKS/>
+          <JLPT/>
           <ResultsPupil/>
-          <Pupil setOpen={setOpen}/>
+          <University setOpen={setOpen}/>
           <Course setOpen={setOpen}/>
           <Academy/>
           <Faq/>
