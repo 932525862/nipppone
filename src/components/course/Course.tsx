@@ -16,13 +16,13 @@ export const Course: FC<CourseProps> = ({setOpen}) => {
                   <div className="card-img"><img src={intiensiveImg} alt="photo" /></div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>Sertifikat</h6>
-                      <p className="flex-center">Davomiyligi: 12 oy</p>
+                      <h6>N5 guruh</h6>
+                      <p className="flex-center">Davomiyligi: 4 oy</p>
                     </div>
                     <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere perspiciatis blanditiis culpa, quo omnis!</div>
                     <div className="card-bottom d-flex justify-between items-center">
                       <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
-                      <div className="prices">999.000 so’m /oy</div>
+                      <div className="prices">500.000 so’m /oy</div>
                     </div>
                   </div>
                 </div>
@@ -30,13 +30,13 @@ export const Course: FC<CourseProps> = ({setOpen}) => {
                   <div className="card-img"><img src={intiensiveImg} alt="photo" /></div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>Visa</h6>
-                      <p className="flex-center">Davomiyligi: 12 oy</p>
+                      <h6>N4 guruh</h6>
+                      <p className="flex-center">Davomiyligi: 7 oy</p>
                     </div>
                     <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, distinctio ipsam obcaecati voluptate laudantium provident?</div>
                     <div className="card-bottom d-flex justify-between items-center">
                       <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
-                      <div className="prices">999.000 so’m /oy</div>
+                      <div className="prices">500.000 so’m /oy</div>
                     </div>
                   </div>
                 </div>
@@ -44,12 +44,24 @@ export const Course: FC<CourseProps> = ({setOpen}) => {
                   <div className="card-img"><img src={intiensiveImg} alt="photo" /></div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>Universititet</h6>
-                      <p className="flex-center">Davomiyligi: 12 oy</p>
+                      <h6>N3 guruh</h6>
+                      <p className="flex-center">Davomiyligi: 10 oy</p>
                     </div>
                     <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, animi culpa iure voluptatibus similique corporis.</div>
                     <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
-                    <div className="prices">999.000 so’m /oy</div>
+                    <div className="prices">500.000 so’m /oy</div>
+                  </div>
+                </div>
+                <div className="course-card">
+                  <div className="card-img"><img src={intiensiveImg} alt="photo" /></div>
+                  <div className="card-info">
+                    <div className="degree d-flex justify-between">
+                      <h6>Maxsus sajyor guruh</h6>
+                      <p className="flex-center">Davomiyligi: 6 oy</p>
+                    </div>
+                    <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, animi culpa iure voluptatibus similique corporis.</div>
+                    <button onClick={() => setOpen(true)} className="btn">Ro’yxatdan o’tish</button>
+                    <div className="prices">500.000 so’m /oy</div>
                   </div>
                 </div>
               </div>

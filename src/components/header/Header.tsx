@@ -78,7 +78,7 @@ export const Header = () => {
           </div>
           <div className="header-right d-flex items-center justify-between">
             <div className="logo-text">
-              Qashqadaryoda joylashgan Yapon tili o’quv markazi
+              Yapon tili o’quv markazi
             </div>
             <nav>
               <ul className="d-flex">
@@ -117,9 +117,10 @@ export const Header = () => {
               <a href="tel:+998953255000">
                 <div className="tel-number">+998 (95) 325 5000</div>
               </a>
-              <a href="tel:+998953255000">
-                <div className="header-contact-bottom">Hoziroq bog'laning</div>
+              <a href="tel:+998904447000">
+                <div className="tel-number">+998 (90) 444 7000</div>
               </a>
+                <div className="header-contact-bottom">Hoziroq bog'laning</div>
             </div>
           </div>
         </div>

@@ -10,14 +10,14 @@
         }
         .faq-accardions{
             margin: 0 auto;
-            width: 100%;
+            max-width: 833px;
             display: flex;
             flex-direction: column;
             gap: 10px;
             align-items: center;
             .faq-accardion{
                 cursor: pointer;
-                max-width: 833px;
+                width: 100%;
                 .faq-accardion-header{
                     border-radius: 10px;
                     width: 100%;
@@ -52,7 +52,7 @@
                     max-height: 0;
                     background: #ffffcc41;
                     border-radius: 10px;
-                    
+                    width: 100%;
                     p{
                         padding: 10px 30px;
                     }

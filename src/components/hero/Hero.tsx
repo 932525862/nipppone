@@ -29,7 +29,7 @@ export const Hero = () => {
                   />
                 </svg>
               </div>
-              <p> 2 yilda Yapon tilidan N1 darajagacha olishda yordam beramiz</p>
+              <p> 4 oyda Yapon tilidan N5 darajagacha olishda yordam beramiz</p>
             </div>
             <div className="about d-flex items-center">
               <div className="about-bg">

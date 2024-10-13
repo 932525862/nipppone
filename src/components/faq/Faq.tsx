@@ -11,119 +11,184 @@ const answerFaq = {
   uz: [
     {
       id: 1,
-      question: "Yapon tilini noldan o'rganishni boshlashim mumkinmi?",
+      question: "Yapon tilini bilmasdan yaponiyaga til kurslariga ketaolamanmi?",
       answer:
-        "Ha, albatta! Bizning kurslarimiz yangi boshlovchilar uchun moslashtirilgan. Noldan boshlagan talabalar yapon tilining asoslarini o'rganishadi va keyinchalik tilni rivojlantirish uchun chuqurlashtirilgan darslarga o'tishadi.",
+        "Aslida ketsangiz bo'ladi lekin buni tafsiya qilmaymiz, sababi yaponiyada yashash, til maktablari darsl;ariga moslasholmaslik, ishlay olamslik, quydagi muammolarni keltirib chiqaradi, tafsiya, Hujjat topshirgan kunizdan boshlab yapon tilini boshlashiz kerak.",
     },
     {
       id: 2,
       question:
-        "Yaponiyada o'qish uchun qanday talablarga javob berishim kerak?",
+        "Yaponiyadagi til maktablariga viza olib berish kafolatlariz qanaqa?",
       answer:
-        "Odatda, Yaponiyadagi universitetlar til bilimi (JLPT sertifikati), o'rta maktab yoki bakalavr diplomi, va ba'zi hollarda IELTS yoki TOEFL kabi til testlari natijalarini talab qiladi. Biz sizni bu jarayonga tayyorlaymiz.",
+        "Bizada 2 hil xizmatimzi mavjuda, 1: 100% kafolatli viza olib berish, 2: 80% dan 90% gacha viza chiqish ehtimoli. ",
     },
     {
       id: 3,
-      question: "Yaponiyaga o'qishga qanday dasturlar orqali yuborasiz?",
+      question: "Sizlar yani Nippon Study Center qachondan faoliyat yuritib kelasizlar?",
       answer:
-        "Bizda Yaponiyadagi universitetlar, til maktablari va stipendiya dasturlari bilan hamkorlik mavjud. Talabalar o'z qiziqishlariga mos keladigan dasturlarni tanlashlari mumkin va biz ularni hujjat topshirishdan boshlab qabulgacha bo'lgan barcha bosqichlarda qo'llab-quvvatlaymiz.",
+        "Biz 2017-yil dekabr oyidan buyon faoliyatdamiz. Hozirda 500dan ortiq talabalarimiz Yaponiyaning nufuzli universitet va kollejlarida tahsil olib kelyapti.",
     },
     {
       id: 4,
-      question: "Yapon tilini o'rganish qancha vaqtni oladi?",
+      question: "Men boshqa viloyatdanman. Borib maslahat olish va hujjat topshirishimga uzoqlik qilyapti. Hujjat va Maslahatlarni online qilsak bo'ladimi?",
       answer:
-        "Bu sizning qobiliyatingiz va o'qishga ajratadigan vaqtingizga bog'liq. Odatda, boshlang'ich darajadan o'rtacha suhbat darajasigacha yetishish uchun 1-2 yil talab etiladi. Bizda intensiv va odatdagi darslar mavjud bo'lib, ularni sizning jadvalingizga moslashtirish mumkin.",
+        "Ha, albatta ilojisi bor. Bizni asosiy filialimiz Qashqadaryoning Shahrisabz shahrida joylashgan. Agar sizga uzoqlik qisla biz bn online shartnoma va hujjat ishlari va maslahatlarni olishingiz mumkun. Hozirgacha Samarqand, Jizzax, Andijon. Namangan, Farg'ona, Horazmlardan online shartnoma qilib ketganlar juda kop.",
     },
     {
       id: 5,
       question:
-        "Yaponiyaga o'qishga borish uchun viza olishda yordam bera olasizmi?",
+        "Man hohlagan Yaponiyaning shaharlariga hujjatimni tahlab beraolasizlarmi?",
       answer:
-        "Ha, biz sizga talabalar vizasini olish uchun barcha zarur hujjatlarni tayyorlashda yordam beramiz. Viza olish jarayonida ko'maklashish ham bizning xizmatlarimiz qatoriga kiradi.",
+        "Ha, albatta. Siz hohlagan Yaponiyaning shariga qilib beraolamiz. Sababi biz hozirda Yaponiyaning deyarli barcha viloyatlari ilan shartnomalarimiz bor.",
     },
     {
       id: 6,
-      question: "O'qish va yashash xarajatlari haqida ma'lumot bera olasizmi?",
+      question: "Yaponiyadagi o'qish tulovlari man uchun ozgina qimmatlik qilyapti. Bo'lib tulashni yani hech bo'lmaganda ikkiga bo'lib to'lasam bo'ladimi?",
       answer:
-        "Yaponiyadagi o'qish va yashash xarajatlari universitet yoki til maktabi joylashgan shaharga qarab farq qiladi. O'rtacha hisobda, o'qish uchun yillik to'lov 5,000-10,000 AQSh dollari orasida, yashash xarajatlari esa oyiga 800-1,500 AQSh dollari bo'lishi mumkin. Biz sizga qo'shimcha ma'lumot va arzonroq variantlar bo'yicha maslahat bera olamiz.",
+        "Ha, bizda huddi shunday imkoniyat bor. 1 yillik o'qish pulini 6oylik qismini to'lab ketaolasiz va yaponiyadagi oq;ishni boshlaysiz, 6oy yapon tilini oq'ib bo'lganizdan keyin qolgan 6oylgizni uziz ishlab topgan pulzidan bemalol to'layolasiz.",
+    },
+    {
+      id: 7,
+      question: "Yaponiyaga til maktablari yoki universitetlarga tekinga ketishni ilojisi bormi?",
+      answer:
+        "Afsuski yo'q.",
+    },
+    {
+      id: 8,
+      question: "Sizlarda offline o'qish qnarxi qancha?",
+      answer:
+        "500,000 so'm.",
+    },
+    {
+      id: 9,
+      question: "Turist viza bilan ketmoqchiman?",
+      answer:
+        "Hujjat tahlashda yordam beramiz albatta. Bizda shu xizmatlar ham bor. Atiga 2milion so'm.",
+    },
+    {
+      id: 10,
+      question: "Nima uchun o'qish vizasiga 100% kafolat beryapsizlar, bu qanchalik haqiqatga yaqin?",
+      answer:
+        "Biz 2017-yildan buyon ishlab ishlab kelyapmiz. Bu degani bizda boshqalarda yo'q tajribalar bor. Aslida bu 100% lik kafolatli vizani olish uchun bir qancha sabablari bor, 1. Hujjatlarni to'gri tayyorlash. 2. Yolg'on malumot yoki Qalbaki ho'jjatlarni bermaslik, 3. Yaponiya migratsiyasi tomonidan ''ajoyib maktab'' maqomiga ega bo'lgan maktab tallashiz kerak holos. Shunda siz vizani 100% muammosiz olasiz.",
     },
   ],
   en: [
     {
       id: 1,
-      question: "Can I start learning Japanese from scratch?",
+      question: "Can I go to language courses in Japan without knowing Japanese?",
       answer:
-        "Yes, of course! Our courses are designed for beginners. Students starting from scratch will learn the basics of the Japanese language and later move on to advanced lessons to further develop their skills.",
+        "Actually, you can, but we do not recommend it, because it can cause difficulties in adapting to life in Japan, attending classes in language schools, and working. We recommend that you start learning Japanese as soon as you submit your documents.",
     },
     {
       id: 2,
-      question: "What requirements do I need to meet to study in Japan?",
+      question: "What are your guarantees for obtaining a visa to language schools in Japan?",
       answer:
-        "Typically, Japanese universities require language proficiency (JLPT certificate), a high school or bachelor's diploma, and in some cases, IELTS or TOEFL test results. We will prepare you for this process.",
+        "We have two types of services: 1. 100% guarantee of obtaining a visa, 2. 80% to 90% probability of getting a visa.",
     },
     {
       id: 3,
-      question:
-        "Through which programs do you send students to study in Japan?",
+      question: "Since when have you been operating Nippon Study Center?",
       answer:
-        "We have partnerships with universities, language schools, and scholarship programs in Japan. Students can choose programs that match their interests, and we support them through all stages, from submitting documents to acceptance.",
+        "We have been operating since December 2017. Currently, more than 500 of our students are studying at prestigious universities and colleges in Japan.",
     },
     {
       id: 4,
-      question: "How long does it take to learn Japanese?",
+      question: "I am from another region. It's hard for me to come for consultation and document submission. Can we do everything online?",
       answer:
-        "It depends on your abilities and the time you can dedicate to studying. Typically, it takes 1-2 years to reach an intermediate conversational level from beginner. We offer intensive and regular courses that can be tailored to your schedule.",
+        "Yes, of course. Our main branch is located in Shahrisabz, Kashkadarya region. If it's too far for you, you can make an online contract and submit documents. Many students from Samarkand, Jizzakh, Andijan, Namangan, Fergana, and Khorezm have already done this online.",
     },
     {
       id: 5,
-      question: "Can you help with obtaining a visa to study in Japan?",
+      question: "Can you submit my documents to any city in Japan that I want?",
       answer:
-        "Yes, we will help you prepare all the necessary documents for obtaining a student visa. Assistance with the visa application process is also part of our services.",
+        "Yes, of course. We can submit your documents to any city in Japan as we currently have contracts with almost all regions of Japan.",
     },
     {
       id: 6,
-      question: "Can you provide information on study and living expenses?",
+      question: "Studying in Japan is a bit expensive for me. Can I pay in installments, at least in two parts?",
       answer:
-        "Study and living expenses in Japan vary depending on the city where the university or language school is located. On average, tuition fees range from 5,000 to 10,000 USD per year, and living expenses can be between 800 and 1,500 USD per month. We can provide additional information and advice on more affordable options.",
+        "Yes, we have such an option. You can pay only half of the tuition fee for the first year and start studying in Japan. After studying for 6 months, you can easily pay the remaining amount with the money you earn yourself.",
+    },
+    {
+      id: 7,
+      question: "Is it possible to study for free at language schools or universities in Japan?",
+      answer: "Unfortunately, no.",
+    },
+    {
+      id: 8,
+      question: "How much does your offline course cost?",
+      answer: "500,000 sum.",
+    },
+    {
+      id: 9,
+      question: "I want to travel with a tourist visa, what can you offer?",
+      answer:
+        "We can help you with document preparation. We have this service available. The cost is only 2 million sum.",
+    },
+    {
+      id: 10,
+      question: "Why are you giving a 100% guarantee on a student visa, how realistic is that?",
+      answer:
+        "We have been working since 2017, which means we have experience that others don't. In fact, there are several reasons to get a visa with 100% guarantee: 1. Proper document preparation. 2. No false information or forged documents. 3. Choosing a school that has been awarded the 'excellent school' status by Japanese immigration. If you meet these conditions, you will get the visa without any problems.",
     },
   ],
   ru: [
     {
       id: 1,
-      question: "Могу ли я начать учить японский язык с нуля?",
+      question: "Можно ли поехать на языковые курсы в Японию без знания японского языка?",
       answer:
-        "Да, конечно! Наши курсы адаптированы для начинающих. Студенты, начинающие с нуля, изучают основы японского языка и затем переходят к углубленным занятиям для дальнейшего развития языка.",
+        "На самом деле можно, но мы этого не рекомендуем, потому что это может вызвать трудности с адаптацией к жизни в Японии, посещением уроков в языковых школах и работой. Мы рекомендуем начать изучать японский язык с момента подачи документов.",
     },
     {
       id: 2,
-      question: "Какие требования необходимо выполнить для учебы в Японии?",
+      question: "Какие гарантии получения визы в японские языковые школы?",
       answer:
-        "Обычно японские университеты требуют знание языка (сертификат JLPT), диплом средней школы или бакалавра, а в некоторых случаях результаты языковых тестов, таких как IELTS или TOEFL. Мы подготовим вас к этому процессу.",
+        "У нас есть два вида услуг: 1. 100% гарантия получения визы, 2. Вероятность получения визы от 80% до 90%.",
     },
     {
       id: 3,
-      question: "Через какие программы вы отправляете учиться в Японию?",
+      question: "С какого времени работает Nippon Study Center?",
       answer:
-        "У нас есть сотрудничество с университетами, языковыми школами и стипендиальными программами в Японии. Студенты могут выбирать программы, которые соответствуют их интересам, и мы поддерживаем их на всех этапах, от подачи документов до зачисления.",
+        "Мы начали свою деятельность в декабре 2017 года. В настоящее время более 500 наших студентов обучаются в престижных университетах и колледжах Японии.",
     },
     {
       id: 4,
-      question: "Сколько времени займет изучение японского языка?",
+      question: "Я из другого региона. Мне неудобно приезжать для консультации и подачи документов. Можно ли все сделать онлайн?",
       answer:
-        "Это зависит от ваших способностей и времени, которое вы сможете посвятить учебе. Обычно для достижения среднего уровня разговорного языка требуется 1-2 года. У нас есть интенсивные и обычные занятия, которые можно адаптировать под ваш график.",
+        "Да, конечно. Наш главный филиал находится в городе Шахрисабз, Кашкадарьинской области. Если для вас это далеко, вы можете заключить договор и подать документы онлайн. Уже много студентов из Самарканда, Джизака, Андижана, Намангана, Ферганы и Хорезма сделали это онлайн.",
     },
     {
       id: 5,
-      question: "Можете ли вы помочь с получением визы для учебы в Японии?",
+      question: "Можете ли вы подать мои документы в город Японии по моему выбору?",
       answer:
-        "Да, мы поможем вам подготовить все необходимые документы для получения студенческой визы. Помощь в процессе получения визы также входит в наши услуги.",
+        "Да, конечно. Мы можем подать ваши документы в любой город Японии, так как у нас есть контракты с почти всеми регионами Японии.",
     },
     {
       id: 6,
-      question:
-        "Можете ли вы предоставить информацию о стоимости учебы и проживания?",
+      question: "Учеба в Японии для меня немного дороговата. Можно ли оплатить в рассрочку, например, хотя бы в два этапа?",
       answer:
-        "Стоимость учебы и проживания в Японии зависит от города, где расположен университет или языковая школа. В среднем, годовая плата за обучение составляет от 5 000 до 10 000 долларов США, а расходы на проживание могут составлять от 800 до 1 500 долларов США в месяц. Мы можем предоставить дополнительную информацию и советы по более доступным вариантам.",
+        "Да, у нас есть такая возможность. Вы можете оплатить за первый год учебы только половину суммы и начать учиться в Японии, а вторую половину вы сможете оплатить после того, как проучитесь 6 месяцев и заработаете эти деньги самостоятельно.",
+    },
+    {
+      id: 7,
+      question: "Есть ли возможность бесплатно поехать учиться в Японию на языковые курсы или в университет?",
+      answer: "К сожалению, нет.",
+    },
+    {
+      id: 8,
+      question: "Сколько стоит офлайн обучение у вас?",
+      answer: "500 000 сум.",
+    },
+    {
+      id: 9,
+      question: "Хочу поехать с туристической визой, что можете предложить?",
+      answer: "Мы можем помочь вам с оформлением документов. У нас есть такая услуга. Стоимость всего 2 миллиона сум.",
+    },
+    {
+      id: 10,
+      question: "Почему вы даете 100% гарантию на учебную визу? Насколько это реально?",
+      answer:
+        "Мы работаем с 2017 года, что означает, что у нас есть уникальный опыт, которого нет у других. Чтобы получить визу с 100% гарантией, есть несколько причин: 1. Правильная подготовка документов. 2. Отсутствие ложной информации или поддельных документов. 3. Выбор школы, имеющей статус «отличной школы» от японской миграции. Если вы выполните эти условия, то получите визу без проблем.",
     },
   ],
 };

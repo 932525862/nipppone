@@ -13,8 +13,7 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
         <div className="university-inner">
           <div className="university-content ">
             <div className="title ">
-              Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant
-              yutishda yordam beramiz
+              Muvafaqqiyatli bitiruvchilarimizga til maktablari va universitet tanlash va grant yutishda yordam beramiz
             </div>
           </div>
         </div>
@@ -27,7 +26,7 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Lorem, ipsum dolor.</h6>
+                <h6>Tokyo International University</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sunt delectus? Nostrum aliquid maiores suscipit labore reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis </p>
               </div>
             </div>
@@ -36,7 +35,7 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Lorem, ipsum dolor.</h6>
+                <h6>Japan University of Economics.</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sunt delectus? Nostrum aliquid</p>
               </div>
             </div>
@@ -45,7 +44,7 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Lorem, ipsum dolor.</h6>
+                <h6>Ritsumeikan Asia Pacific University</h6>
                 <p>Lorem ipsum dolor sit amet conseciquid maiores suscipit labore reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
               </div>
             </div>
@@ -54,7 +53,7 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Lorem, ipsum dolor.</h6>
+                <h6>Waseda University</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Liberoabore reiciendis possimus provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
               </div>
             </div>
@@ -63,7 +62,16 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={intiensiveImg} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Lorem, ipsum dolor.</h6>
+                <h6>Soka University</h6>
+                <p>Lorem ipsum dolor sit amet consectetur  reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
+              </div>
+            </div>
+            <div className="university-card">
+              <div className="card-img">
+                <img src={intiensiveImg} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>Nagoya University</h6>
                 <p>Lorem ipsum dolor sit amet consectetur  reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
               </div>
             </div>

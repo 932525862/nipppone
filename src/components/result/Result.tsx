@@ -22,7 +22,7 @@ export const Result = () => {
       <div className="container">
         <div className="result-content">
           <h4 className="title">
-            O’quvchilarimizning natijalari N1 darajagacha
+            O’quvchilarimizning natijalari bilan tanishing 
           </h4>
         </div>
       </div>

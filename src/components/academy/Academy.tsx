@@ -9,32 +9,26 @@ export const Academy = () => {
                 <div className="academy-cards">
                     <div className="academy-card">
                         <div className="count flex-center">01</div>
-                        <div className="card-title">Professional ustozlar</div>
-                        <div className="card-description">Sizga 4 yildan ortiq tajriba va Topik darajasi 6 bo’lgan o’qituvchilar dars beradi</div>
+                        <div className="card-title">O'qish vizaisni olish kafolati 100%</div>
                     </div>
                     <div className="academy-card">
                         <div className="count flex-center">02</div>
-                        <div className="card-title">Bepul coworking zonalari</div>
-                        <div className="card-description">Erkin dars qilish, netvorking va o’z ustingizda ishlash uchun bepul coworking zonalarimiz mavjud</div>
+                        <div className="card-title">Professional ustozlar</div>
                     </div>
                     <div className="academy-card">
                         <div className="count flex-center">03</div>
-                        <div className="card-title">Haftalik tadbirlar</div>
-                        <div className="card-description">Nippon Study Center jamoasi o’quvchilari uchun doimiy ravishda qo’shimcha tadbirar tashkilb keladi</div>
+                        <div className="card-title">2017-yildan buyon faoliyatda</div>
                     </div>
                     <div className="academy-card">
                         <div className="count flex-center">04</div>
-                        <div className="card-title">Bepul sinov imtihonlari</div>
-                        <div className="card-description">Har davomida tashkillanadigan sinov imtihonlarida qatnashib o’z darajangizni bilib borasiz</div>
+                        <div className="card-description">0 dan 100% gacha (Hujjat va Yapon tilini 0 dan boshlab, yaponiyaga airaportdan junatish va kutib olish, yaponiya airaporidan kutib olish va uyga joylashtirish va maktab va universitetlarga oborib quyish ximatlari bor)</div>
                     </div>
                     <div className="academy-card">
                         <div className="count flex-center">05</div>
-                        <div className="card-title">Yordamchi kuratorlar</div>
-                        <div className="card-description">Darslarni o’zlashtirishda qiyinchilik bo’lsa sizga yordam beradigan kuratoringiz bo’ladi</div>
+                        <div className="card-title">Bepul Sinov imtihonlari</div>
                     </div>
                     <div className="academy-card">
                         <div className="count flex-center">06</div>
-                        <div className="card-title">Konsulting xizmatlar</div>
                         <div className="card-description">Muvafaqqiyatli bitirgan talabalarimizga Yaponiyada o’qish uchun visa olishda, universitet tanlash va grand yutishda yordam beramiz</div>
                     </div>
                 </div>
