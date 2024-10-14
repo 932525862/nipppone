@@ -51,7 +51,6 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                 300: {
                   slidesPerView: 1,
                   spaceBetween: 20
-                  
                 },
               }}
             >

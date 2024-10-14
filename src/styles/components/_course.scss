@@ -131,6 +131,17 @@
   }
   
 }
+@media only screen and (max-width: 650px) {
+  .course{
+    .course-content{
+      .course-cards{
+        margin: 0 auto;
+        max-width: 400px;
+      }
+    }
+  }
+  
+}
 
 @media only screen and (max-width: 639px) {
   .course{
@@ -161,11 +172,16 @@
   
 }
 
-@media only screen and (max-width: 380px) {
+
+
+@media only screen and (max-width: 400px) {
   .course{
     .course-content{
       .course-cards{
+        margin: 0 auto;
+        max-width: 300px;
         .course-card{
+          width: 300px;
           .card-info{
             button{
               width: 120px;

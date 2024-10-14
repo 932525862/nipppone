@@ -9,7 +9,7 @@ export const Academy = () => {
                 <div className="academy-cards">
                     <div className="academy-card">
                         <div className="count flex-center">01</div>
-                        <div className="card-title">O'qish vizaisni olish kafolati 100%</div>
+                        <div className="card-title">O'qish vizasini olish kafolati 100%</div>
                     </div>
                     <div className="academy-card">
                         <div className="count flex-center">02</div>
