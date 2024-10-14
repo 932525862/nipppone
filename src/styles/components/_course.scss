@@ -6,17 +6,18 @@
     }
     .course-cards {
       margin: 0 auto;
-      display: flex;
-      row-gap: 20px;
-      column-gap: 10px;
-      justify-content: center;
-      flex-wrap: wrap;
       .course-card {
         border-radius: 40px;
-        width: 380px;
+        width: 370px;
         height: 450px;
         background: #f7f7f7;
         position: relative;
+        .card-img{
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
         .card-info {
           padding: 20px 28px;
           .degree {

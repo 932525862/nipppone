@@ -2,6 +2,7 @@ import Marquee from "react-fast-marquee";
 import { HeroButton } from "../button/heroButton";
 import intiensiveImg from "../../assets/house-1.png";
 import { FC } from "react";
+
 interface UniversityProps{
     setOpen: (item: boolean)=> void
 }
