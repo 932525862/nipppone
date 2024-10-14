@@ -65,8 +65,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                       <p className="flex-center">Davomiyligi: 4 oy</p>
                     </div>
                     <div className="description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Et facere perspiciatis blanditiis culpa, quo omnis!
+                    Hiragana, katakana, oddiy so‘zlar va grammatik qoidalar. Tugatgandan so‘ng, sodda yapon tilida gapira olasiz.
                     </div>
                     <div className="card-bottom d-flex justify-between items-center">
                       <button onClick={() => setOpen(true)} className="btn">
@@ -88,9 +87,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                       <p className="flex-center">Davomiyligi: 7 oy</p>
                     </div>
                     <div className="description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nobis, distinctio ipsam obcaecati voluptate laudantium
-                      provident?
+                    O‘rtacha yapon tilini o‘rganish. Kundalik suhbatlarni tushunish va qatnashish imkoniyatini beradi.
                     </div>
                     <div className="card-bottom d-flex justify-between items-center">
                       <button onClick={() => setOpen(true)} className="btn">
@@ -112,8 +109,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                       <p className="flex-center">Davomiyligi: 10 oy</p>
                     </div>
                     <div className="description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos, animi culpa iure voluptatibus similique corporis.
+                    Yuqori o‘rta darajadagi yapon tilini o‘rganish. Murakkab matnlarni tushunish, turli mavzularda suhbatlashish va grammatikani chuqurroq bilish imkoniyatini beradi.
                     </div>
                     <button onClick={() => setOpen(true)} className="btn">
                       Ro’yxatdan o’tish
@@ -133,8 +129,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                       <p className="flex-center">Davomiyligi: 6 oy</p>
                     </div>
                     <div className="description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos, animi culpa iure voluptatibus similique corporis.
+                    Yapon tilini professional muloqot va ish faoliyatida qo‘llash uchun o‘rganasiz. Murakkab matnlarni tushunish va ish joyida kerakli terminologiyani o‘rganishga e'tibor qaratiladi.
                     </div>
                     <button onClick={() => setOpen(true)} className="btn">
                       Ro’yxatdan o’tish
