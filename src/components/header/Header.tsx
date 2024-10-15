@@ -6,6 +6,7 @@ import i18n from "../../i18next";
 import { LuMenu } from "react-icons/lu";
 import { useEffect, useRef, useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
+import { useTranslation } from "react-i18next";
 
 export const Header = () => {
   const [burgerOpen, setBurgerOpen] = useState<boolean>(true);
@@ -15,6 +16,7 @@ export const Header = () => {
     localStorage.setItem("nipponLng", text);
     i18n.changeLanguage(text);
   }
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -38,6 +40,8 @@ export const Header = () => {
     };
   }, [burgerOpen]);
 
+  const { t } = useTranslation()
+
   return (
     <header>
       <div ref={mobileNavRef} className={`mobile-nav ${burgerOpen ? "mobile-nav-active" : ""}`}>
@@ -46,24 +50,24 @@ export const Header = () => {
         </div>
         <ul>
           <li onClick={() => setBurgerOpen(false)}>
-            <a href="#we">Nega biz</a>
+            <a href="#we">{t('header.we')}</a>
           </li>
           <li onClick={() => setBurgerOpen(false)}>
-            <a href="#result">Natijalar</a>
+            <a href="#result">{t('header.results')}</a>
           </li>
           <li onClick={() => setBurgerOpen(false)}>
-            <a href="#course">Kurslar</a>
+            <a href="#course">{t('header.course')}</a>
           </li>
           <li onClick={() => setBurgerOpen(false)}>
-            <a href="#faq">Ko'p beriladigan savollar</a>
+            <a href="#faq">{t('header.faq')}</a>
           </li>
           <li onClick={() => setBurgerOpen(false)}>
             <a href="tel:+998953255000">
               <div className="tel-number">+998 (95) 325 5000</div>
             </a>
-            <a href="tel:+998953255000">
-              <div className="header-contact-bottom">Hoziroq bog'laning</div>
-            </a>
+            <a href="tel:+998904447000">
+                <div className="tel-number">+998 (90) 444 7000</div>
+              </a>
           </li>
         </ul>
       </div>
@@ -77,22 +81,20 @@ export const Header = () => {
             </div>
           </div>
           <div className="header-right d-flex items-center justify-between">
-            <div className="logo-text">
-              Yapon tili o’quv markazi
-            </div>
+            <div className="logo-text">{t("header.japan")}</div>
             <nav>
               <ul className="d-flex">
                 <li>
-                  <a href="#we">Nega biz</a>
+                  <a href="#we">{t("header.we")}</a>
                 </li>
                 <li>
-                  <a href="#result">Natijalar</a>
+                  <a href="#result">{t("header.results")}</a>
                 </li>
                 <li>
-                  <a href="#course">Kurslar</a>
+                  <a href="#course">{t("header.course")}</a>
                 </li>
                 <li>
-                  <a href="#faq">Ko'p beriladigan savollar</a>
+                  <a href="#faq">{t("header.faq")}</a>
                 </li>
               </ul>
             </nav>
@@ -120,7 +122,6 @@ export const Header = () => {
               <a href="tel:+998904447000">
                 <div className="tel-number">+998 (90) 444 7000</div>
               </a>
-                <div className="header-contact-bottom">Hoziroq bog'laning</div>
             </div>
           </div>
         </div>

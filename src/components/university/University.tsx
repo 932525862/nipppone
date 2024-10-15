@@ -1,26 +1,33 @@
 import Marquee from "react-fast-marquee";
 import { HeroButton } from "../button/heroButton";
-import intiensiveImg from "../../assets/house-1.png";
-import tokioInternational from "../../assets/tokio-international.jpg"
-import japanEconomic from "../../assets/japan-economic.png"
-import pacificUniversity from "../../assets/pacific-university.jpg"
-import wasedaUniversity from "../../assets/waseda-university.jpg"
-import nagoyaUniversity from "../../assets/nagoya-university.jpg"
+import sokaUniversity from "../../assets/soka-university.jpg";
+import tokioInternational from "../../assets/tokio-international.jpg";
+import japanEconomic from "../../assets/japan-economic.png";
+import pacificUniversity from "../../assets/pacific-university.jpg";
+import wasedaUniversity from "../../assets/waseda-university.jpg";
+import nagoyaUniversity from "../../assets/nagoya-university.jpg";
+import prorowSchool from "../../assets/prorow-school.jpg";
+import kurashikiSchool from "../../assets/kurashiki-school.jpg";
+import hisaeSchool from "../../assets/hisae-school.jpg";
+import hotsumaSchool from "../../assets/hotsuma-school.jpg";
+import osakoSchool from "../../assets/osaka-school.jpg";
+import tbsSchool from "../../assets/tbs-school.jpg";
+import tccSchool from "../../assets/tcc-school.jpg";
 import { FC } from "react";
+import { useTranslation } from "react-i18next";
 
-interface UniversityProps{
-    setOpen: (item: boolean)=> void
+interface UniversityProps {
+  setOpen: (item: boolean) => void;
 }
 
-export const University: FC<UniversityProps> = ({setOpen}) => {
+export const University: FC<UniversityProps> = ({ setOpen }) => {
+  const { t } = useTranslation();
   return (
-    <section className="university" >
+    <section className="university">
       <div className="container">
         <div className="university-inner">
           <div className="university-content ">
-            <div className="title ">
-              Muvafaqqiyatli bitiruvchilarimizga til maktablari va universitet tanlash va grant yutishda yordam beramiz
-            </div>
+            <div className="title ">{t("university.title")}</div>
           </div>
         </div>
       </div>
@@ -32,8 +39,8 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={tokioInternational} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Tokyo International University</h6>
-                <p>Tokio Xalqaro Universiteti (TIU) (tōkyō Kokusai Daigaku, Tōkyō Kokusai Daigaku ) ​​1965-yilda tashkil etilgan xususiy, tadqiqotga yo‘naltirilgan liberal san'at universitetidir. Uning asosiy kampusi Toshima shahrida (Tokio) joylashgan</p>
+                <h6>{t("university.u-name-1")}</h6>
+                <p>{t("university.u-description-1")}</p>
               </div>
             </div>
             <div className="university-card">
@@ -41,8 +48,8 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={japanEconomic} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Japan University of Economics.</h6>
-                <p>Universitet xalqaro talabalar soni bo'yicha Yaponiyada 4-o'rinda turadi.Tokio kampusidagi talabalarning 80% dan ortig'i xorijdan. </p>
+                <h6>{t("university.u-name-2")}</h6>
+                <p>{t("university.u-description-2")}</p>
               </div>
             </div>
             <div className="university-card">
@@ -50,8 +57,8 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={pacificUniversity} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Ritsumeikan Asia Pacific University</h6>
-                <p>Yaponiyadagi xususiy universitetdir . APU 2000 yilda davlat va xususiy sektorning uchta partiyasi: Oita prefekturasi, Beppu shahri va Ritsumeikan Trust hamkorligida tashkil etilgan.</p>
+                <h6>{t("university.u-name-3")}</h6>
+                <p>{t("university.u-description-3")}</p>
               </div>
             </div>
             <div className="university-card">
@@ -59,17 +66,17 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={wasedaUniversity} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Waseda University</h6>
-                <p>Tokioning Shinjuku shahridagi xususiy tadqiqot universiteti . 1882 yilda Yaponiyaning beshinchi Bosh vaziri Okuma Shigenobu tomonidan Tokyo professional maktabi sifatida asos solingan maktab 1902 yilda rasman Vaseda universiteti deb o'zgartirildi</p>
+                <h6>{t("university.u-name-4")}</h6>
+                <p>{t("university.u-description-4")}</p>
               </div>
             </div>
             <div className="university-card">
               <div className="card-img">
-                <img src={intiensiveImg} alt="photo" />
+                <img src={sokaUniversity} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Soka University</h6>
-                <p>Lorem ipsum dolor sit amet consectetur  reiciendis possimus explicabo, quibusdam amet provident voluptas. Enim laboriosam, blanditiis voluptatibus aliquam corrupti voluptate?</p>
+                <h6>{t("university.u-name-5")}</h6>
+                <p>{t("university.u-description-5")}</p>
               </div>
             </div>
             <div className="university-card">
@@ -77,17 +84,86 @@ export const University: FC<UniversityProps> = ({setOpen}) => {
                 <img src={nagoyaUniversity} alt="photo" />
               </div>
               <div className="card-info">
-                <h6>Nagoya University</h6>
-                <p>U 1939 yilda Yaponiyaning o'sha paytdagi Imperiyasidagi to'qqizta Imperator Universitetlarining oxirgisi sifatida tashkil etilgan va hozirda Belgilangan Milliy Universitet hisoblanadi.</p>
+                <h6>{t("university.u-name-6")}</h6>
+                <p>{t("university.u-description-6")}</p>
               </div>
             </div>
-            
+          </Marquee>
+        </div>
+        <div className="swiper-bottom">
+          <Marquee pauseOnHover={true} direction="right">
+            <div className="university-card">
+              <div className="card-img">
+                <img src={prorowSchool} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>{t("university.s-name-1")}</h6>
+                <p>{t("university.s-description-1")}</p>
+              </div>
+            </div>
+            <div className="university-card">
+              <div className="card-img">
+                <img src={kurashikiSchool} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>{t("university.s-name-2")}</h6>
+                <p>{t("university.s-description-2")}</p>
+              </div>
+            </div>
+            <div className="university-card">
+              <div className="card-img">
+                <img src={hisaeSchool} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>{t("university.s-name-3")}</h6>
+                <p>{t("university.s-description-3")}</p>
+              </div>
+            </div>
+            <div className="university-card">
+              <div className="card-img">
+                <img src={tccSchool} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>{t("university.s-name-4")}</h6>
+                <p>{t("university.s-description-4")}</p>
+              </div>
+            </div>
+            <div className="university-card">
+              <div className="card-img">
+                <img src={hotsumaSchool} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>{t("university.s-name-5")}</h6>
+                <p>{t("university.s-description-5")}</p>
+              </div>
+            </div>
+            <div className="university-card">
+              <div className="card-img">
+                <img src={osakoSchool} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>{t("university.s-name-6")}</h6>
+                <p>{t("university.s-description-6")}</p>
+              </div>
+            </div>
+            <div className="university-card">
+              <div className="card-img">
+                <img src={tbsSchool} alt="photo" />
+              </div>
+              <div className="card-info">
+                <h6>{t("university.s-name-7")}</h6>
+                <p>{t("university.s-description-7")}</p>
+              </div>
+            </div>
           </Marquee>
         </div>
       </div>
       <div className="container">
-        <div onClick={() => setOpen(true)} className="result-content d-flex justify-center">
-            <HeroButton text="bog'lanish"></HeroButton>
+        <div
+          onClick={() => setOpen(true)}
+          className="result-content d-flex justify-center"
+        >
+          <HeroButton text={t("modal.props")}></HeroButton>
         </div>
       </div>
     </section>

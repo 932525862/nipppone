@@ -5,38 +5,40 @@ import rocketImg from "../../assets/rocket-dynamic-color.png"
 import targetImg from "../../assets/target-dynamic-color.png"
 import travelImg from "../../assets/travel-dynamic-color.png"
 import moneyImg from "../../assets/money-dynamic-color.png"
+import { useTranslation } from "react-i18next"
 
 
 export const About = () => {
+    const { t } = useTranslation()
   return (
     <section className="about">
         <div className="container">
             <div className="about-content d-flex flex-column items-center">
-                <h4 className="title">Nippon Study Center aniq siz uchun agar siz:</h4>
+                <h4 className="title">{t("about.title")}</h4>
                 <div className="about-cards d-flex justify-center">
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={chatImg} alt="photo" /></div>
-                        <div className="card-text">Qisqa muddat ichida Yapon tilida gapirishni istaysiz</div>
+                        <div className="card-text">{t("about.text-1")}</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={rocketImg} alt="photo" /></div>
-                        <div className="card-text">Yapon tili o’rganib o’z karyerangizni qurmoqchisiz</div>
+                        <div className="card-text">{t("about.text-2")}</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={moneyImg} alt="photo" /></div>
-                        <div className="card-text">JLPT sertifikatini olib Yaponiyaning nufuzli universitetlariga GRANT yutmoqchisiz</div>
+                        <div className="card-text">{t("about.text-3")}</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={travelImg} alt="photo" /></div>
-                        <div className="card-text">Yaponiya davlatida o’qish va ishlash uchun ketmoqchisiz</div>
+                        <div className="card-text">{t("about.text-4")}</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={targetImg} alt="photo" /></div>
-                        <div className="card-text">Yapon tilini o’rta darajada bilasiz va darajangizni oshirmoqchisiz</div>
+                        <div className="card-text">{t("about.text-5")}</div>
                     </div>
                     <div className="about-card">
                         <div className="card-img flex-center"><img src={keyImg} alt="photo" /></div>
-                        <div className="card-text">Ko’p yillardan buyon o’qib ham natijaga chiqa olmayapsiz</div>
+                        <div className="card-text">{t("about.text-6")}</div>
                     </div>
                 </div>
             </div>

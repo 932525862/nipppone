@@ -4,17 +4,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
+import { useTranslation } from "react-i18next";
 
 interface CourseProps {
   setOpen: (item: boolean) => void;
 }
 
 export const Course: FC<CourseProps> = ({ setOpen }) => {
+  const { t } = useTranslation()
   return (
     <section className="course" id="course">
       <div className="container">
         <div className="course-content">
-          <div className="title">O’zingizga mos kursga ro’yxatdan o’ting</div>
+          <div className="title">{t("course.title")}</div>
           <div className="course-cards">
             <Swiper
               slidesPerView={3}
@@ -61,17 +63,13 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>N5 guruh</h6>
-                      <p className="flex-center">Davomiyligi: 4 oy</p>
+                      <h6>{t("course.card.title-1")}</h6>
+                      <p className="flex-center">{t("course.card.duration-1")}</p>
                     </div>
-                    <div className="description">
-                    Hiragana, katakana, oddiy so‘zlar va grammatik qoidalar. Tugatgandan so‘ng, sodda yapon tilida gapira olasiz.
-                    </div>
+                    <div className="description">{t("course.card.description-1")}</div>
                     <div className="card-bottom d-flex justify-between items-center">
-                      <button onClick={() => setOpen(true)} className="btn">
-                        Ro’yxatdan o’tish
-                      </button>
-                      <div className="prices">500.000 so’m /oy</div>
+                      <button onClick={() => setOpen(true)} className="btn">{t("course.card.button")}</button>
+                      <div className="prices">{t("course.card.price")}</div>
                     </div>
                   </div>
                 </div>
@@ -83,17 +81,13 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>N4 guruh</h6>
-                      <p className="flex-center">Davomiyligi: 7 oy</p>
+                      <h6>{t("course.card.title-2")}</h6>
+                      <p className="flex-center">{t("course.card.duration-2")}</p>
                     </div>
-                    <div className="description">
-                    O‘rtacha yapon tilini o‘rganish. Kundalik suhbatlarni tushunish va qatnashish imkoniyatini beradi.
-                    </div>
+                    <div className="description">{t("course.card.description-2")}</div>
                     <div className="card-bottom d-flex justify-between items-center">
-                      <button onClick={() => setOpen(true)} className="btn">
-                        Ro’yxatdan o’tish
-                      </button>
-                      <div className="prices">500.000 so’m /oy</div>
+                      <button onClick={() => setOpen(true)} className="btn">{t("course.card.button")}</button>
+                      <div className="prices">{t("course.card.price")}</div>
                     </div>
                   </div>
                 </div>
@@ -105,16 +99,12 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>N3 guruh</h6>
-                      <p className="flex-center">Davomiyligi: 10 oy</p>
+                      <h6>{t("course.card.title-3")}</h6>
+                      <p className="flex-center">{t("course.card.duration-3")}</p>
                     </div>
-                    <div className="description">
-                    Yuqori o‘rta darajadagi yapon tilini o‘rganish. Murakkab matnlarni tushunish, turli mavzularda suhbatlashish va grammatikani chuqurroq bilish imkoniyatini beradi.
-                    </div>
-                    <button onClick={() => setOpen(true)} className="btn">
-                      Ro’yxatdan o’tish
-                    </button>
-                    <div className="prices">500.000 so’m /oy</div>
+                    <div className="description">{t("course.card.description-3")}</div>
+                    <button onClick={() => setOpen(true)} className="btn">{t("course.card.button")}</button>
+                    <div className="prices">{t("course.card.price")}</div>
                   </div>
                 </div>
               </SwiperSlide>
@@ -125,16 +115,12 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
-                      <h6>Maxsus sajyor guruh</h6>
-                      <p className="flex-center">Davomiyligi: 6 oy</p>
+                      <h6>{t("course.card.title-4")}</h6>
+                      <p className="flex-center">{t("course.card.duration-4")}</p>
                     </div>
-                    <div className="description">
-                    Yapon tilini professional muloqot va ish faoliyatida qo‘llash uchun o‘rganasiz. Murakkab matnlarni tushunish va ish joyida kerakli terminologiyani o‘rganishga e'tibor qaratiladi.
-                    </div>
-                    <button onClick={() => setOpen(true)} className="btn">
-                      Ro’yxatdan o’tish
-                    </button>
-                    <div className="prices">500.000 so’m /oy</div>
+                    <div className="description">{t("course.card.description-4")}</div>
+                    <button onClick={() => setOpen(true)} className="btn">{t("course.card.button")}</button>
+                    <div className="prices">{t("course.card.price")}</div>
                   </div>
                 </div>
               </SwiperSlide>

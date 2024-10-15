@@ -1,4 +1,5 @@
 
+import { useTranslation } from "react-i18next";
 import sertificate1 from "../../assets/certificate-1.jpg";
 import sertificate2 from "../../assets/certificate-2.jpg";
 import sertificate3 from "../../assets/certificate-3.jpg";
@@ -17,13 +18,12 @@ import visa8 from "../../assets/visa-8.jpg";
 import Marquee from "react-fast-marquee";
 
 export const Result = () => {
+  const { t } = useTranslation() 
   return (
     <section className="result">
       <div className="container">
         <div className="result-content">
-          <h4 className="title">
-            O’quvchilarimizning natijalari bilan tanishing 
-          </h4>
+          <h4 className="title">{t("results.title-1")}</h4>
         </div>
       </div>
       <div className="result-swiper">
@@ -56,9 +56,7 @@ export const Result = () => {
       </div>
       <div className="container">
         <div className="result-content">
-          <h4 className="title">
-            O’quvchilarimizning natijalari VISA olganlar
-          </h4>
+          <h4 className="title">{t("results.title-2")}</h4>
         </div>
       </div>
       <div className="result-swiper">

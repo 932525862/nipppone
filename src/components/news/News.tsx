@@ -6,13 +6,15 @@ import { GrPrevious } from "react-icons/gr";
 import { GrNext } from "react-icons/gr";
 import banner1 from "../../assets/banner-1.jpg";
 import banner2 from "../../assets/banner-2.jpg";
+import { useTranslation } from "react-i18next";
 
 const News = () => {
+  const { t } = useTranslation()
   return (
     <section className="news">
       <div className="container">
         <div className="news-content">
-          <h4 className="title">Yangiliklar</h4>
+          <h4 className="title">{t("news.title")}</h4>
           <Swiper
             loop={true}
             autoplay={true}

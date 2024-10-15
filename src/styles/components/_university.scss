@@ -1,51 +1,123 @@
-.university{
-    padding: 50px 0;
-    .university-inner{
-        .university-content{
-            width: 100%;
-            .title{
-                max-width: 794px;
-                text-align: center;
-                margin: 0 auto;
-                margin-bottom: 60px;
-            }
+.university {
+  padding: 50px 0;
+  .university-inner {
+    .university-content {
+      width: 100%;
+      .title {
+        max-width: 794px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 60px;
+      }
+    }
+  }
+  .university-swiper {
+    margin-bottom: 30px;
+    .swiper-bottom {
+      margin-top: 20px;
+    }
+    .university-card {
+      border-radius: 40px;
+      width: 380px;
+      height: 460px;
+      background: #ffffff;
+      margin-right: 15px;
+      .card-img {
+        img {
+          border-radius: 40px 40px 0 0;
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
         }
+      }
+      .card-info {
+        padding: 20px 28px 0;
+        h6 {
+          font-family: "Gilroy", sans-serif;
+          font-weight: 400;
+          font-size: 24px;
+          color: #333;
+          margin-bottom: 15px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 150%;
+          color: #555;
+          max-width: 100%;
+          font-family: "Gilroy", sans-serif;
+        }
+      }
     }
-    .university-swiper{
-        margin-bottom: 30px;
-        .university-card {
-            border-radius: 40px;
-            width: 380px;
-            height: 460px;
-            background: #ffffff;
-            margin-right: 15px;
-            .card-img{
-                img{
-                    border-radius: 40px 40px 0 0;
-                    width: 100%;
-                    height: 200px;
-                }
-            }
-            .card-info {
-              padding: 20px 28px;
-              h6 {
-                font-family: "Gilroy", sans-serif;
-                font-weight: 400;
-                font-size: 24px;
-                color: #333;
-                margin-bottom: 15px;
-              }
-              p{
-                font-weight: 400;
-                font-size: 15px;
-                line-height: 150%;
-                color: #555;
-                max-width: 100%;
-                font-family: "Gilroy", sans-serif;
-                margin-bottom: 30px;
-              }
-            }
-          }
-    }
+  }
 }
 
+@media only screen and (max-width: 959px) {
+  .university {
+    .university-content {
+      .title {
+        font-size: 32px;
+      }
+    }
+    .university-swiper {
+      .university-card {
+        border-radius: 20px;
+        width: 340px;
+        height: 400px;
+        .card-img {
+          img {
+            height: 170px;
+            border-radius: 20px 20px 0 0;
+          }
+        }
+        .card-info {
+          padding: 15px 15px 0;
+          h6 {
+            font-size: 20px;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 15px;
+            line-height: 120%;
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .university {
+    padding-top: 0;
+    .university-content {
+      .title {
+        font-size: 28px;
+      }
+    }
+    .university-swiper {
+      .university-card {
+        width: 300px;
+        height: 350px;
+        .card-img {
+          img {
+            height: 140px;
+            
+          }
+        }
+        .card-info {
+          padding: 10px 10px 0;
+          h6 {
+            font-size: 18px;
+            margin-bottom: 7px;
+          }
+          p {
+            font-size: 14px;
+            line-height: 110%;
+          }
+        }
+      }
+      
+    }
+  }
+}

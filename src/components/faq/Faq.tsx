@@ -198,12 +198,12 @@ const Faq = () => {
   const toggleOpen = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   return (
     <section className="faq" id="faq">
       <div className="container">
         <div className="faq-content">
-          <div className="title">Ko’p beriladigan savollar</div>
+          <div className="title">{t("header.faq")}</div>
           <div className="faq-accardions">
             {i18n?.language == "en"
               ? answerFaq?.en?.map((item: AnswerFaq, index: number) => {

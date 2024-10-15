@@ -25,19 +25,16 @@
             font-size: 32px;
         }
     }
-    .result-swiper{
-        .swiper-bottom{
-            display: none;
-        }
-    }
    } 
 }
 
 @media only screen and (max-width: 639px) {
     .result{
+        padding-top: 0;
      .result-content{
          .title{
              font-size: 28px;
+             margin-bottom: 20px;
          }
      }
      
@@ -47,12 +44,12 @@
  @media only screen and (max-width: 480px) {
     .result{
      .result-swiper{
-        .swiper-top{
+        
             img{
                 width: 240px;
                 height: 330px;
             }
-        }
+        
      }
      
     } 

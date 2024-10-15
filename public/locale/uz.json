@@ -1,1 +1,120 @@
-{}
+{
+    "header": {
+        "japan": "Yapon tili o'quv markazi",
+        "we": "Nega biz",
+        "results": "Natijalar",
+        "course": "Kurslar",
+        "faq": "Ko'p beriladigan savollar"
+    },
+    "hero": {
+        "title-sup": "4 oyda Yapon tilida gapirishni boshlang",
+        "title": "Yaponiya Universitetlarida 100% gacha grant asosida o’qish imkoniyati",
+        "description-1": "4 oyda Yapon tilidan N5 darajagacha olishda yordam beramiz",
+        "description-2": "Yapon tilidan yuqori darajani qo’lga kiritib, Yaponiyada o’qish va ishlash imkoniyati",
+        "button": "bepul darsga yozilish",
+        "button-sub": "Birinchi darsga bepul yoziling"
+    },
+    "news": {
+        "title": "Yangiliklar"
+    },
+    "about": {
+        "title": "Nippon Study Center aniq siz uchun agar siz:",
+        "text-1": "Qisqa muddat ichida Yapon tilida gapirishni istaysiz",
+        "text-2": "Yapon tili o’rganib o’z karyerangizni qurmoqchisiz",
+        "text-3": "JLPT sertifikatini olib Yaponiyaning nufuzli universitetlariga GRANT yutmoqchisiz",
+        "text-4": "Yaponiya davlatida o’qish va ishlash uchun ketmoqchisiz",
+        "text-5": "Yapon tilini o’rta darajada bilasiz va darajangizni oshirmoqchisiz",
+        "text-6": "Ko’p yillardan buyon o’qib ham natijaga chiqa olmayapsiz"
+    },
+    "results": {
+        "title-1": "O’quvchilarimizning natijalari bilan tanishing",
+        "title-2": "O’quvchilarimizning natijalari VISA olganlar"
+    },
+    "jlpt": {
+        "title": "Yaponiya Universitetlariga 100% gacha grant yutish imkoniyati",
+        "description": "JLPT (Japanese-Language Proficiency Test) yapon tilini bilish darajasini baholash uchun xalqaro standartlashtirilgan imtihon bo‘lib, u til ko‘nikmalarini, jumladan, o‘qish, tinglash, grammatika, lug‘at va kanji (xitoycha belgilar)ni o‘z ichiga oladi. Test iyul va dekabr oylarida dunyo bo‘ylab o‘tkaziladi. JLPTdan o‘tish Yaponiyada ish yoki ta’lim olish uchun muhim talab bo‘lishi mumkin."
+    },
+    "result-pupil": {
+        "title": "Bizning natijalarimiz",
+        "description-1": "Sertifikat olgan o'quvchilarimiz",
+        "description-2": "Visa olgan o'quvchilarimiz",
+        "description-3": "Universitetga joylashgan talabalarimiz"
+    },
+    "university": {
+        "title": "Muvafaqqiyatli bitiruvchilarimizga til maktablari va universitet tanlash va grant yutishda yordam beramiz",
+        "u-name-1": "Tokyo International University",
+        "u-name-2": "Japan University of Economics.",
+        "u-name-3": "Ritsumeikan Asia Pacific University",
+        "u-name-4": "Waseda University",
+        "u-name-5": "Soka University",
+        "u-name-6": "Nagoya University",
+        "u-description-1": "Tokio Xalqaro Universiteti (TIU) (tōkyō Kokusai Daigaku, Tōkyō Kokusai Daigaku ) ​​1965-yilda tashkil etilgan xususiy, tadqiqotga yo‘naltirilgan liberal san'at universitetidir. Uning asosiy kampusi Toshima shahrida (Tokio) joylashgan",
+        "u-description-2": "Universitet xalqaro talabalar soni bo'yicha Yaponiyada 4-o'rinda turadi.Tokio kampusidagi talabalarning 80% dan ortig'i xorijdan.",
+        "u-description-3": "Yaponiyadagi xususiy universitetdir . APU 2000 yilda davlat va xususiy sektorning uchta partiyasi: Oita prefekturasi, Beppu shahri va Ritsumeikan Trust hamkorligida tashkil etilgan.",
+        "u-description-4": "Tokioning Shinjuku shahridagi xususiy tadqiqot universiteti . 1882 yilda Yaponiyaning beshinchi Bosh vaziri Okuma Shigenobu tomonidan Tokyo professional maktabi sifatida asos solingan maktab 1902 yilda rasman Vaseda universiteti deb o'zgartirildi",
+        "u-description-5": "Yaponiyaning Soka universiteti ( kāngāngān ) - Tokiodagi  xususiy yapon universiteti boʻlib , 1971-yilda tashkil etilgan. Universitetda 8000 ga yaqin talaba tahsil oladi, shundan 400 nafari xorijliklardir. Universitet Yaponiya Ta'lim, madaniyat, sport, fan va texnologiyalar vazirligining \"Super Global Universitetni qo'llab-quvvatlash loyihasi\" dasturining bir qismidir .",
+        "u-description-6": "U 1939 yilda Yaponiyaning o'sha paytdagi Imperiyasidagi to'qqizta Imperator Universitetlarining oxirgisi sifatida tashkil etilgan va hozirda Belgilangan Milliy Universitet hisoblanadi.",
+        "s-name-1": "PROROW",
+        "s-name-2": "KURASHIKI LANGUAGE ACADEMY",
+        "s-name-3": "Hisae Japanese Language School",
+        "s-name-4": "TCC",
+        "s-name-5": "Hotsuma International School",
+        "s-name-6": "Osaka University of Tourism",
+        "s-name-7": "Tokyo Bay Japanese Language Academy",
+        "s-description-1": "ProRow Japan Language School 2010-yilda tashkil topgan bo‘lib, minglab talabalar bu yerda yapon tilini muvaffaqiyatli o‘rgangan. Afzalliklari: individual dasturlar, tajribali o‘qituvchilar, madaniy tadbirlar, va online hamda an’anaviy dars formatlari.",
+        "s-description-2": "Kurashiki Language Academy 2012-yilda tashkil topgan bo‘lib, yuzlab talabalar bu yerda yapon tilini o‘rgangan. Maktabning afzalliklari: individual dars rejasi, tajribali yapon tilidagi o‘qituvchilar, madaniy tadbirlar orqali o‘quvchilar tilni chuqurroq o‘zlashtiradi. Online va an’anaviy dars shakllari mavjud.",
+        "s-description-3": "Hisae Japanese Language School 2015-yilda tashkil topgan va shu paytgacha ko‘plab talabalar yapon tilini muvaffaqiyatli o‘rgangan. Afzalliklari: moslashtirilgan darslar, malakali o‘qituvchilar, madaniy tadbirlar orqali yapon madaniyatini o‘rganish, hamda online va oflayn dars formatlari.",
+        "s-description-4": "TCC 2000-yilda tashkil topgan va minglab talabalar yapon tilini muvaffaqiyatli o‘rgangani bilan mashhur. Afzalliklari: moslashuvchan o‘quv dasturlari, yuqori tajribali o‘qituvchilar, madaniy tadbirlar va suhbatlar orqali amaliy tajriba. Online va an’anaviy dars formatlari mavjud.",
+        "s-description-5": "Hotsuma International School 2010-yilda tashkil topgan bo‘lib, ko‘plab talabalar bu yerda yapon tilini mukammal o‘rgangani bilan tanilgan. Afzalliklari: individuallashtirilgan dars rejasi, tajribali o‘qituvchilar, madaniy tadbirlar orqali amaliy o‘rgatish, shuningdek, online va oflayn dars imkoniyatlari mavjud.",
+        "s-description-6": "Osaka University of Tourism 2002-yilda tashkil topgan bo‘lib, ko‘plab talabalarga yapon tilini o‘rganish va turizm sohasida bilim olish imkonini beradi. Afzalliklari: o‘quv dasturi turizmga qaratilgan, tajribali o‘qituvchilar, amaliy mashg‘ulotlar va madaniy tadbirlar. Online va an’anaviy dars formatlari mavjud.",
+        "s-description-7": "Tokyo Bay Japanese Language Academy 2013-yilda tashkil topgan bo‘lib, yapon tilini o‘rganishga qiziquvchi ko‘plab talabalarni qamrab oladi. Maktabning afzalliklari: individual yondashuv, malakali o‘qituvchilar, madaniy tadbirlar orqali amaliy til o‘rganish, shuningdek, online va oflayn dars variantlari mavjud."
+    },
+    "course": {
+        "title": "O’zingizga mos kursga ro’yxatdan o’ting",
+        "card": {
+            "title-1": "N5 guruh",
+            "title-2": "N4 guruh",
+            "title-3": "N3 guruh",
+            "title-4": "Maxsus stajyor guruh",
+            "description-1": "Hiragana, katakana, oddiy so‘zlar va grammatik qoidalar. Tugatgandan so‘ng, sodda yapon tilida gapira olasiz.",
+            "description-2": "O‘rtacha yapon tilini o‘rganish. Kundalik suhbatlarni tushunish va qatnashish imkoniyatini beradi.",
+            "description-3": "Yuqori o‘rta darajadagi yapon tilini o‘rganish. Murakkab matnlarni tushunish, turli mavzularda suhbatlashish va grammatikani chuqurroq bilish imkoniyatini beradi.",
+            "description-4": "Yapon tilini professional muloqot va ish faoliyatida qo‘llash uchun o‘rganasiz. Murakkab matnlarni tushunish va ish joyida kerakli terminologiyani o‘rganishga e'tibor qaratiladi.",
+            "duration-1": "Davomiyligi: 4 oy",
+            "duration-2": "Davomiyligi: 7 oy",
+            "duration-3": "Davomiyligi: 10 oy",
+            "duration-4": "Davomiyligi: 6 oy",
+            "button": "Ro'yxatdan o'tish",
+            "price": "500 000 so'm /oy"
+        }
+    },
+    "academy": {
+        "title": "Nima uchun aynan Nippon Study Center?",
+        "name-1": "O'qish vizasini olish kafolati 100%",
+        "name-2": "Professional ustozlar",
+        "name-3": "2017-yildan buyon faoliyatda",
+        "name-5": "Bepul Sinov imtihonlari",
+        "description-1": "Biz bilan orzuyingizdagi ta'lim imkoniyatiga ega bo'ling!",
+        "description-2": "Yapon tilini o'rgatish bo'yicha malakali ustozlar bilan interaktiv va samarali darslar.",
+        "description-3": "Markazda interaktiv metodlar va individual yondashuv asosida darslar olib borilib, yapon madaniyati va tilining nozik jihatlarini mukammal o‘rgatish kafolatlanadi.",
+        "description-4": "0 dan 100% gacha (Hujjat va Yapon tilini 0 dan boshlab, yaponiyaga airaportdan junatish va kutib olish, yaponiya airaporidan kutib olish va uyga joylashtirish va maktab va universitetlarga oborib quyish ximatlari bor)",
+        "description-5": "Yapon tilini o‘rganish uchun bilim darajangizni bepul baholang va sizga mos kursni tanlang!",
+        "description-6": "Muvafaqqiyatli bitirgan talabalarimizga Yaponiyada o’qish uchun visa olishda, universitet tanlash va grand yutishda yordam beramiz"
+    },
+    "support": {
+        "title": "Savollaringiz qoldimi?",
+        "description": "Ma’lumotlaringizni qoldiring siz bilan bog’lanib barcha savollaringizga javob beramiz.",
+        "input-1": "Ismingiz",
+        "input-2": "Telefon raqamingiz",
+        "button": "savol berish"
+    },
+    "modal": {
+        "props": "Bog'lanish",
+        "title": "O'z ma'lumotlaringizni qoldiring",
+        "description": "Sizga to'liqroq ma'lumot berish uchun mutaxassislarimiz siz bilan bog'lanishadi",
+        "input-1": "Ismingiz",
+        "input-2": "Telegram username (@test)",
+        "button": "Bog'lanish"
+    },
+    "footer": "Maxfiylik siyosati"
+}

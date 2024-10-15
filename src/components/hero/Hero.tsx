@@ -1,18 +1,17 @@
+import { useTranslation } from "react-i18next";
 import { HeroButton } from "../button/heroButton";
 
 export const Hero = () => {
+  const { t } = useTranslation()
   return (
     <section className="hero">
       <div className="container">
       <div className="hero-content">
           <div className="korea-lng d-flex items-center">
             <div className="line"></div>
-            <p>6 oyda Yapon tilida gapirishni boshlang</p>
+            <p>{t("hero.title-sup")}</p>
           </div>
-          <h1>
-            Yaponiya Universitetlarida 100% gacha grant asosida o’qish
-            imkoniyati
-          </h1>
+          <h1>{t("hero.title")}</h1>
           <div className="topic-abouts d-flex items-center">
             <div className="about d-flex items-center">
               <div className="about-bg">
@@ -29,7 +28,7 @@ export const Hero = () => {
                   />
                 </svg>
               </div>
-              <p> 4 oyda Yapon tilidan N5 darajagacha olishda yordam beramiz</p>
+              <p>{t("hero.description-1")}</p>
             </div>
             <div className="about d-flex items-center">
               <div className="about-bg">
@@ -46,15 +45,12 @@ export const Hero = () => {
                   />
                 </svg>
               </div>
-              <p>
-                Yapon tilidan yuqori darajani qo’lga kiritib, Yaponiyada o’qish
-                va ishlash imkoniyati
-              </p>
+              <p>{t("hero.description-2")}</p>
             </div>
           </div>
           <div className="hero-bottom">
-            <a href="#course"><HeroButton text="bepul Darsga yozilish" /></a>
-            <p>Birinchi darsga bepul yoziling</p>
+            <a href="#course"><HeroButton text={t("hero.button")} /></a>
+            <p>{t("hero.button-sub")}</p>
           </div>
         </div>
       </div>

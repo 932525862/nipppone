@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import footerLogo from "../../assets/footer-logo.png";
 
 export const Footer = () => {
+  const { t } = useTranslation()
   return (
     <footer>
       <div className="container">
@@ -11,16 +13,16 @@ export const Footer = () => {
           <nav>
             <ul className="d-flex">
               <li>
-                <a href="#we">Nega biz</a>
+                <a href="#we">{t("header.we")}</a>
               </li>
               <li>
-                <a href="#result">Natijalar</a>
+                <a href="#result">{t("header.results")}</a>
               </li>
               <li>
-                <a href="#course">Kurslar</a>
+                <a href="#course">{t("header.course")}</a>
               </li>
               <li>
-                <a href="#faq">Ko'p beriladigan savollar</a>
+                <a href="#faq">{t("header.faq")}</a>
               </li>
               <li className="soacialli">
               <div className="socils d-flex items-center">
@@ -159,7 +161,7 @@ export const Footer = () => {
                 </a>
               </div>
             </div>
-            <p>Maxfiylik siyosati</p>
+            <p>{t("footer")}</p>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import "react-phone-input-2/lib/style.css";
 import axios from "axios";
 import { toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import { useTranslation } from "react-i18next";
 interface ModalCardProps {
   open: boolean;
   setOpen: (item: boolean) => void;
@@ -56,30 +57,29 @@ const ModalCard: FC<ModalCardProps> = ({ open, setOpen }) => {
     console.log(data);
   };
 
+  const { t } = useTranslation()
+
   return (
     <>
       <Modal
-        title="Bog'lanish"
+        title={t("modal.props")}
         open={open}
         onCancel={handleCancel}
         footer={false}
       >
         <div className="modal-content">
-          <h3>O'z ma'lumotlaringizni qoldiring</h3>
-          <p className="modal-description">
-            Sizga to'liqroq ma'lumot berish uchun mutaxassislarimiz siz bilan
-            bog'lanishadi
-          </p>
+          <h3>{t("modal.title")}</h3>
+          <p className="modal-description">{t("modal.description")}</p>
           <form onSubmit={handleSubmit(onSubmit)}>
             <input
               type="text"
               {...register("name", { required: "This is required" })}
-              placeholder="Ismingiz"
+              placeholder={t("modal.input-1")}
             />
             <input
               type="text"
               {...register("userName", { required: "This is required" })}
-              placeholder="Telegram username (@test)"
+              placeholder={t("modal.input-2")}
             />
             <PhoneInput
               country={"uz"}
@@ -97,7 +97,7 @@ const ModalCard: FC<ModalCardProps> = ({ open, setOpen }) => {
               buttonClass="input-button"
               containerClass="input-tel"
             />
-            <button type="submit">Bog'lanish</button>
+            <button type="submit">{t("modal.button")}</button>
           </form>
         </div>
       </Modal>

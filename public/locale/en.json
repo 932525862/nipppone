@@ -1,1 +1,120 @@
-{}
+{
+    "header": {
+        "japan": "Japanese Language Learning Center",
+        "we": "Why Us",
+        "results": "Results",
+        "course": "Courses",
+        "faq": "Frequently Asked Questions"
+    },
+    "hero": {
+        "title-sup": "Start speaking Japanese in 4 months",
+        "title": "Opportunity to study in Japanese universities with up to 100% scholarship",
+        "description-1": "We will help you reach N5 level in Japanese in 4 months",
+        "description-2": "Achieve a high level of Japanese and gain the opportunity to study and work in Japan",
+        "button": "Sign up for a free lesson",
+        "button-sub": "Sign up for the first lesson for free"
+    },
+    "news": {
+        "title": "News"
+    },
+    "about": {
+        "title": "Nippon Study Center is definitely for you if you:",
+        "text-1": "Want to start speaking Japanese in a short time",
+        "text-2": "Want to learn Japanese and build your career",
+        "text-3": "Want to get a JLPT certificate and win a scholarship to prestigious Japanese universities",
+        "text-4": "Plan to study and work in Japan",
+        "text-5": "Have an intermediate level of Japanese and want to improve",
+        "text-6": "Have been studying for years but haven’t achieved results"
+    },
+    "results": {
+        "title-1": "Check out our students' results",
+        "title-2": "Our students' results: those who got a visa"
+    },
+    "jlpt": {
+        "title": "Opportunity to win up to 100% scholarship to Japanese universities",
+        "description": "JLPT (Japanese-Language Proficiency Test) is an international standardized exam that assesses Japanese language proficiency. It evaluates skills such as reading, listening, grammar, vocabulary, and kanji (Chinese characters). The test is held worldwide in July and December. Passing the JLPT can be an important requirement for studying or working in Japan."
+    },
+    "result-pupil": {
+        "title": "Our Achievements",
+        "description-1": "Students who have received certificates",
+        "description-2": "Students who have received visas",
+        "description-3": "Students who have been admitted to universities"
+    },
+    "university": {
+        "title": "We assist our successful graduates in selecting language schools and universities, and winning scholarships",
+        "u-name-1": "Tokyo International University",
+        "u-name-2": "Japan University of Economics",
+        "u-name-3": "Ritsumeikan Asia Pacific University",
+        "u-name-4": "Waseda University",
+        "u-name-5": "Soka University",
+        "u-name-6": "Nagoya University",
+        "u-description-1": "Tokyo International University (TIU) is a private research-focused liberal arts university established in 1965. Its main campus is located in Toshima, Tokyo.",
+        "u-description-2": "Ranked 4th in Japan by the number of international students, over 80% of students at the Tokyo campus are from abroad.",
+        "u-description-3": "A private university in Japan, APU was established in 2000 through a partnership between the public and private sectors, including Oita Prefecture, Beppu City, and the Ritsumeikan Trust.",
+        "u-description-4": "A private research university in Shinjuku, Tokyo, founded in 1882 by Japan’s 5th Prime Minister, Okuma Shigenobu. It was officially renamed Waseda University in 1902.",
+        "u-description-5": "Soka University in Japan is a private university located in Tokyo, founded in 1971. The university has around 8,000 students, 400 of whom are international. It is part of the 'Super Global University' initiative by Japan’s Ministry of Education, Culture, Sports, Science, and Technology.",
+        "u-description-6": "Established in 1939 as the last of Japan's nine Imperial Universities, it is now recognized as a Designated National University.",
+        "s-name-1": "PROROW",
+        "s-name-2": "KURASHIKI LANGUAGE ACADEMY",
+        "s-name-3": "Hisae Japanese Language School",
+        "s-name-4": "TCC",
+        "s-name-5": "Hotsuma International School",
+        "s-name-6": "Osaka University of Tourism",
+        "s-name-7": "Tokyo Bay Japanese Language Academy",
+        "s-description-1": "ProRow Japan Language School, founded in 2010, has helped thousands of students successfully learn Japanese. Key benefits: personalized programs, experienced teachers, cultural events, and both online and traditional class formats.",
+        "s-description-2": "Kurashiki Language Academy, established in 2012, has trained hundreds of students in Japanese. Key advantages: individual study plans, experienced native Japanese teachers, and deep language immersion through cultural events. Online and traditional classes are available.",
+        "s-description-3": "Hisae Japanese Language School, founded in 2015, has helped numerous students achieve fluency in Japanese. Benefits include customized lessons, qualified teachers, cultural events for deeper learning, and both online and offline class formats.",
+        "s-description-4": "TCC, established in 2000, is renowned for teaching thousands of students Japanese. Key features include flexible study programs, highly experienced teachers, and practical experience through cultural events and discussions. Both online and traditional classes are available.",
+        "s-description-5": "Hotsuma International School, founded in 2010, is known for providing excellent Japanese language instruction. Key benefits: individualized lesson plans, experienced teachers, and hands-on learning through cultural events. Both online and offline classes are offered.",
+        "s-description-6": "Osaka University of Tourism, established in 2002, provides students with opportunities to learn Japanese and gain knowledge in tourism. The curriculum is focused on tourism, with experienced teachers, practical training, and cultural events. Both online and traditional class formats are available.",
+        "s-description-7": "Tokyo Bay Japanese Language Academy, established in 2013, attracts many students interested in learning Japanese. Key advantages: personalized approach, skilled teachers, practical language learning through cultural events, and both online and offline class options."
+    },
+    "course": {
+        "title": "Register for the Course that Suits You",
+        "card": {
+            "title-1": "N5 Group",
+            "title-2": "N4 Group",
+            "title-3": "N3 Group",
+            "title-4": "Special Trainee Group",
+            "description-1": "Learn Hiragana, Katakana, basic words, and grammar rules. Upon completion, you will be able to speak simple Japanese.",
+            "description-2": "Learn intermediate Japanese. It enables you to understand and participate in daily conversations.",
+            "description-3": "Learn upper-intermediate Japanese. You will be able to comprehend complex texts, engage in discussions on various topics, and deepen your understanding of grammar.",
+            "description-4": "Learn Japanese for professional communication and work purposes. The focus is on understanding complex texts and learning the necessary terminology for the workplace.",
+            "duration-1": "Duration: 4 months",
+            "duration-2": "Duration: 7 months",
+            "duration-3": "Duration: 10 months",
+            "duration-4": "Duration: 6 months",
+            "button": "Register",
+            "price": "500,000 UZS /month"
+        }
+    },
+    "academy": {
+        "title": "Why Nippon Study Center?",
+        "name-1": "100% guarantee of obtaining a study visa",
+        "name-2": "Professional teachers",
+        "name-3": "Operating since 2017",
+        "name-5": "Free trial exams",
+        "description-1": "Achieve your dream education with us!",
+        "description-2": "Interactive and effective lessons with qualified Japanese language teachers.",
+        "description-3": "Lessons are conducted using interactive methods and an individual approach, guaranteeing a deep understanding of Japanese language and culture.",
+        "description-4": "From 0 to 100% (Including document preparation, starting Japanese from scratch, sending to Japan, meeting at the airport, accommodation, and accompanying students to schools and universities).",
+        "description-5": "Evaluate your Japanese language level for free and choose the course that suits you!",
+        "description-6": "We help successful graduates obtain a study visa in Japan, choose universities, and win scholarships."
+    },
+    "support": {
+        "title": "Have any questions?",
+        "description": "Leave your information, and we will contact you to answer all your questions.",
+        "input-1": "Your name",
+        "input-2": "Your phone number",
+        "button": "Ask a question"
+    },
+    "modal": {
+        "props": "Contact Us",
+        "title": "Leave your information",
+        "description": "Our specialists will contact you to provide more detailed information.",
+        "input-1": "Your name",
+        "input-2": "Your Telegram username (@test)",
+        "button": "Contact us"
+    },
+    "footer": "Privacy Policy"
+}

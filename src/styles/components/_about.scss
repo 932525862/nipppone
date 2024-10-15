@@ -70,10 +70,12 @@
 @media only screen and (max-width: 639px) {
     .about{
         .about-content{
+            gap: 20px;
             .title{
                 font-size: 22px;
             }
             .about-cards{
+                gap: 20px;
                 .about-card{
                     max-width: 120px;
                     .card-img{

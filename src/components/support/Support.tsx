@@ -2,6 +2,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import axios from "axios";
 import { toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import { useTranslation } from "react-i18next";
 
 type FormValues = {
   name: string;
@@ -40,16 +41,14 @@ export const Support = () => {
       });
     reset();
   };
+  const { t } = useTranslation()
   return (
     <section className="support" id="support">
       <div className="container">
         <div className="support-content d-flex items-center justify-between">
           <div className="support-text">
-            <div className="question">Savollaringiz qoldimi?</div>
-            <div className="support-description">
-              Ma’lumotlaringizni qoldiring siz bilan bog’lanib barcha
-              savollaringizga javob beramiz.
-            </div>
+            <div className="question">{t("support.title")}</div>
+            <div className="support-description">{t("support.description")}</div>
           </div>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div>
@@ -57,7 +56,7 @@ export const Support = () => {
               className={errors.name ? 'error' : ''}
                 type="text"
                 {...register("name", { required: "This is required" })}
-                placeholder="Ismingiz"
+                placeholder={t("support.input-1")}
               />
               <span>{errors?.name && errors?.name?.message}</span>
             </div>
@@ -66,13 +65,11 @@ export const Support = () => {
               className={errors.number ? 'error' : ''}
                 type="number"
                 {...register("number", { required: "This is required" })}
-                placeholder="Telefon raqamingiz"
+                placeholder={t("support.input-2")}
               />
               <span>{errors?.number && errors?.number?.message}</span>
             </div>
-            <button className="btn" type="submit">
-              Savol Berish
-            </button>
+            <button className="btn" type="submit">{t("support.button")}</button>
           </form>
         </div>
       </div>
