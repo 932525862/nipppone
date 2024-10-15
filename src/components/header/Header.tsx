@@ -9,7 +9,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
 
 export const Header = () => {
-  const [burgerOpen, setBurgerOpen] = useState<boolean>(true);
+  const [burgerOpen, setBurgerOpen] = useState<boolean>(false);
   const mobileNavRef = useRef<HTMLDivElement>(null);
   const burgerButtonRef = useRef<HTMLDivElement>(null);
   function changeLng(text: string) {
