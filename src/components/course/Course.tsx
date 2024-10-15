@@ -1,10 +1,13 @@
 import { FC } from "react";
-import intiensiveImg from "../../assets/house-1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { useTranslation } from "react-i18next";
+import n5 from "../../assets/n5-course.jpg"
+import n3 from "../../assets/n3-course.jpg"
+import n4 from "../../assets/n4-course.jpg"
+import special from "../../assets/special-course.jpg"
 
 interface CourseProps {
   setOpen: (item: boolean) => void;
@@ -59,7 +62,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
               <SwiperSlide>
                 <div className="course-card">
                   <div className="card-img">
-                    <img src={intiensiveImg} alt="photo" />
+                    <img src={n5} alt="photo" />
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
@@ -77,7 +80,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
               <SwiperSlide>
                 <div className="course-card">
                   <div className="card-img">
-                    <img src={intiensiveImg} alt="photo" />
+                    <img src={n4} alt="photo" />
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
@@ -95,7 +98,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
               <SwiperSlide>
                 <div className="course-card">
                   <div className="card-img">
-                    <img src={intiensiveImg} alt="photo" />
+                    <img src={n3} alt="photo" />
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">
@@ -111,7 +114,7 @@ export const Course: FC<CourseProps> = ({ setOpen }) => {
               <SwiperSlide>
                 <div className="course-card">
                   <div className="card-img">
-                    <img src={intiensiveImg} alt="photo" />
+                    <img src={special} alt="photo" />
                   </div>
                   <div className="card-info">
                     <div className="degree d-flex justify-between">

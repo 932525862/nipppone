@@ -14,8 +14,9 @@
         position: relative;
         .card-img{
           img{
+            border-radius: 40px 40px 0 0;
             width: 100%;
-            height: auto;
+            height: 200px;
           }
         }
         .card-info {
@@ -163,7 +164,7 @@
           .card-img{
             img{
               width: 100%;
-              height: auto;
+              height: 160px;
             }
           }
         }

@@ -19,10 +19,10 @@ export const Support = () => {
   
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
-    const token: string = "7334254772:AAEmPl7riyPEqOmXCh-zP2MwXS1fwUq0EBY";
-    const chat_id: number = 717071146;
+    const token: string = "7700997527:AAGr4FXq05a8AgxNIWiS-ocm2Ddm9uT4XD4";
+    const chat_id: number = -1002491440339;
     const url: string = `https://api.telegram.org/bot${token}/sendMessage`;
-    const messageContent = `text: ${data.name} \nnumber: ${data.number}`;
+    const messageContent = `Name: ${data.name} \nNumber: ${data.number}`;
     axios({
       url: url,
       method: "POST",
