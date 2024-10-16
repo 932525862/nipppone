@@ -26,7 +26,6 @@ function App() {
       setIsLoading(false);
     }, 2500);
   }, []);
-
   return (
     <>
       {isLoading ? (
