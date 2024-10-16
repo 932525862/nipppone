@@ -19,7 +19,6 @@ import ResultsPupil from './components/resultsPupil/ResultsPupil'
 
 function App() {
   const [open, setOpen] = useState<boolean>(false)
-
   return (
     <>
     <div className='bg-body'></div>
