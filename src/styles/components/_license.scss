@@ -1,0 +1,96 @@
+.license{
+    font-family: "Gilroy", sans-serif;
+    .license-content{
+        .title{
+            margin-bottom: 30px;
+        }
+        .license-info{
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            align-items: center;
+            .license-img{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 300px;
+                    height: auto;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+            }
+            .license-text{
+                width: 50%;
+                .license-title{
+                    font-size: 28px;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                }
+                .license-description{
+                    font-size: 22px;
+                    line-height: 130%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .license{
+        .license-content{
+            .license-info{
+                .license-text{
+                    .license-title{
+                        font-size: 26px;
+                    }
+                    .license-description{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .license{
+        .license-content{
+            .title{
+                font-size: 28px;
+            }
+            .license-info{
+                flex-direction: column-reverse;
+                .license-img{
+                    width: 100%;
+                }
+                .license-text{
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .license{
+        margin-bottom: 50px;
+        .license-content{
+            .title{
+                font-size: 28px;
+            }
+            .ticense-info{
+                .ticense-text{
+                    .ticense-title{
+                        font-size: 24px;
+                    }
+                    .license-description{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+

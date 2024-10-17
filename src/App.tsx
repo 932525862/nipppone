@@ -16,6 +16,7 @@ import { ToastContainer } from "react-toastify";
 import News from "./components/news/News";
 import ResultsPupil from "./components/resultsPupil/ResultsPupil";
 import Loader from "./components/loader/Loader";
+import License from "./components/license/License";
 
 function App() {
   const [open, setOpen] = useState<boolean>(false);
@@ -46,6 +47,7 @@ function App() {
               <ResultsPupil />
               <University setOpen={setOpen} />
               <Course setOpen={setOpen} />
+              <License/>
               <Academy />
               <Faq />
               <Support />

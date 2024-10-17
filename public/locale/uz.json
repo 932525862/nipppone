@@ -31,7 +31,7 @@
         "title-2": "O’quvchilarimizning natijalari VISA olganlar"
     },
     "jlpt": {
-        "title": "Yaponiya Universitetlariga 100% gacha grant yutish imkoniyati",
+        "title": "Yaponiya til maktablariga 100% gacha grant yutish imkoniyati",
         "description": "JLPT (Japanese-Language Proficiency Test) yapon tilini bilish darajasini baholash uchun xalqaro standartlashtirilgan imtihon bo‘lib, u til ko‘nikmalarini, jumladan, o‘qish, tinglash, grammatika, lug‘at va kanji (xitoycha belgilar)ni o‘z ichiga oladi. Test iyul va dekabr oylarida dunyo bo‘ylab o‘tkaziladi. JLPTdan o‘tish Yaponiyada ish yoki ta’lim olish uchun muhim talab bo‘lishi mumkin."
     },
     "result-pupil": {
@@ -87,6 +87,11 @@
             "button": "Ro'yxatdan o'tish",
             "price": "500 000 so'm /oy"
         }
+    },
+    "license": {
+        "title": "Litsenziya",
+        "license-title": "Markazimiz O’zbekiston Respublikasi qonunchiligiga muvofiq litsenziyalangan",
+        "license-description": "Bizning Nippon o'quv markazi nodavlat ta'lim muassasi maktabdan tashqari ta'lim faoliyatini amalga oshirishda ruxsat etilgan bo'lib, davlat qonunchiligiga binoan litsenzyaga ega. Bu esa shuni anglatadiki, bizga ishonch bildrishingiz mumkin va barchasi qonuniy"
     },
     "academy": {
         "title": "Nima uchun aynan Nippon Study Center?",

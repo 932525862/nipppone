@@ -31,7 +31,7 @@
         "title-2": "Our students' results: those who got a visa"
     },
     "jlpt": {
-        "title": "Opportunity to win up to 100% scholarship to Japanese universities",
+        "title": "The opportunity to win a grant of up to 100% for Japanese language schools.",
         "description": "JLPT (Japanese-Language Proficiency Test) is an international standardized exam that assesses Japanese language proficiency. It evaluates skills such as reading, listening, grammar, vocabulary, and kanji (Chinese characters). The test is held worldwide in July and December. Passing the JLPT can be an important requirement for studying or working in Japan."
     },
     "result-pupil": {
@@ -87,6 +87,11 @@
             "button": "Register",
             "price": "500,000 UZS /month"
         }
+    },
+    "license": {
+        "title": "License",
+        "license-title": "Our center is licensed in accordance with the legislation of the Republic of Uzbekistan",
+        "license-description": "Our Nippon Learning Center is a private educational institution licensed to conduct extracurricular activities and licensed in accordance with the law. This means that you can trust us and everything is legal."
     },
     "academy": {
         "title": "Why Nippon Study Center?",
