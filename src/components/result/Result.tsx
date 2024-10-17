@@ -7,7 +7,7 @@ import sertificate4 from "../../assets/certificate-4.jpg";
 import sertificate5 from "../../assets/certificate-5.jpg";
 import sertificate6 from "../../assets/certificate-6.jpg";
 import sertificate7 from "../../assets/certificate-7.jpg";
-import visa1 from "../../assets/visa-1.png";
+import visa1 from "../../assets/visa-1.jpg";
 import visa2 from "../../assets/visa-2.jpg";
 import visa3 from "../../assets/visa-3.jpg";
 import visa4 from "../../assets/visa-4.jpg";
