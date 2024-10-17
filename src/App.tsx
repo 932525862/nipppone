@@ -20,7 +20,6 @@ import Loader from "./components/loader/Loader";
 function App() {
   const [open, setOpen] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
