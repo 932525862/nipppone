@@ -1,3 +1,10 @@
+declare global {
+  interface Window {
+    gtag?: (command: string, action: string, params?: Record<string, unknown>) => void;
+  }
+}
+
+
 import { FC, useState } from "react";
 import { Modal } from "antd";
 import PhoneInput from "react-phone-input-2";
@@ -5,8 +12,9 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import "react-phone-input-2/lib/style.css";
 import axios from "axios";
 import { toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 import { useTranslation } from "react-i18next";
+
 interface ModalCardProps {
   open: boolean;
   setOpen: (item: boolean) => void;
@@ -14,27 +22,24 @@ interface ModalCardProps {
 
 interface FormValues {
   name: string;
-  userName: string
+  userName: string;
   phone: string;
 }
 
 const ModalCard: FC<ModalCardProps> = ({ open, setOpen }) => {
-  const {
-    register,
-    handleSubmit,
-    setValue,
-    reset
-  } = useForm<FormValues>();
+  const { register, handleSubmit, setValue, reset } = useForm<FormValues>();
   const [phone, setPhone] = useState<string>("");
 
   const handleCancel = () => {
     setOpen(false);
   };
+
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     const token: string = "7700997527:AAGr4FXq05a8AgxNIWiS-ocm2Ddm9uT4XD4";
     const chat_id: number = -1002491440339;
     const url: string = `https://api.telegram.org/bot${token}/sendMessage`;
     const messageContent = `Name: ${data.name} \nUsername: ${data.userName} \nNumber: ${data.phone}`;
+
     axios({
       url: url,
       method: "POST",
@@ -45,19 +50,29 @@ const ModalCard: FC<ModalCardProps> = ({ open, setOpen }) => {
     })
       .then((res) => {
         toast.success("Succsess");
-        setOpen(false)
+
+        // 🔹 Google Ads event snippet
+        if (window.gtag) {
+          window.gtag('event', 'conversion', {
+            send_to: 'AW-17459927667/Sgw8COr79oMbEPO0xYVB',
+            transaction_id: ''
+          });
+        }
+
+        setOpen(false);
         console.log(res);
       })
       .catch((error) => {
         toast.error("Error");
         console.log(error);
       });
+
     reset();
-    setPhone("998")
+    setPhone("998");
     console.log(data);
   };
 
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <>
