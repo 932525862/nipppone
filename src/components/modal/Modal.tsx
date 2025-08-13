@@ -35,8 +35,8 @@ const ModalCard: FC<ModalCardProps> = ({ open, setOpen }) => {
   };
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
-    const token: string = "7700997527:AAGr4FXq05a8AgxNIWiS-ocm2Ddm9uT4XD4";
-    const chat_id: number = -1002491440339;
+    const token: string = "8135864916:AAFxPhQ1dYbqcLGvzIl_rYcd18l3cdv7qQM";
+    const chat_id: number =5389621761    ;
     const url: string = `https://api.telegram.org/bot${token}/sendMessage`;
     const messageContent = `Name: ${data.name} \nUsername: ${data.userName} \nNumber: ${data.phone}`;
 
