@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Asosiy sahifa -->
+  <url>
+    <loc>https://nippon.uz/</loc>
+    <lastmod>2025-08-14</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Yapon tili kurslari sahifasi -->
+  <url>
+    <loc>https://www.nippon.uz/#result</loc>
+    <lastmod>2025-08-14</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Yaponiya grantlari sahifasi -->
+  <url>
+    <loc>https://www.nippon.uz/#course</loc>
+    <lastmod>2025-08-14</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Vizalar haqida sahifa -->
+  <url>
+    <loc>https://www.nippon.uz/#faq</loc>
+    <lastmod>2025-08-14</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+
+</urlset>
